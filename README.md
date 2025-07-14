@@ -1,4 +1,4 @@
-# Éclat - Luxury Fashion & Jewelry Catalog
+# House of Grey - Luxury Fashion & Jewelry Catalog
 
 A high-end e-commerce catalog website for luxury men's and women's clothing and jewelry. This is a front-end only implementation showcasing a responsive, modern design with smooth animations and interactive elements.
 
