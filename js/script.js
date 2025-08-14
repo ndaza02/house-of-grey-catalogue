@@ -1,76 +1,260 @@
-// Sample product data
+// Product data organized by category with actual images
 const products = [
+    // Women's Collection
     {
         id: 1,
-        name: 'Silk Evening Gown',
-        price: 1299,
+        name: 'Elegant Floral Dress',
+        price: 899,
         category: 'women',
-        image: 'https://images.unsplash.com/photo-1539109136884-43be0c2dba58?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+        images: [
+            'images/products/women/WhatsApp Image 2025-08-11 at 14.44.51_653f1cc1.jpg',
+            'images/products/women/WhatsApp Image 2025-08-11 at 14.44.52_854fcd18.jpg',
+            'images/products/women/WhatsApp Image 2025-08-11 at 14.44.52_fbfcf875.jpg'
+        ],
         isNew: true,
-        isSale: false
+        isSale: false,
+        description: 'Beautiful floral dress perfect for summer evenings.'
     },
     {
         id: 2,
-        name: 'Wool Cashmere Coat',
-        price: 1599,
+        name: 'Classic Black Blazer',
+        price: 1299,
         category: 'women',
-        image: 'https://images.unsplash.com/photo-1485462537746-965f33f7f6a7?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-        isNew: false,
-        isSale: true
+        images: [
+            'images/products/women/WhatsApp Image 2025-08-11 at 18.44.52_84fbf930.jpg',
+            'images/products/women/WhatsApp Image 2025-08-11 at 18.44.52_baa27cdd.jpg'
+        ],
+        isNew: true,
+        isSale: false,
+        description: 'Timeless black blazer for formal occasions.'
     },
     {
         id: 3,
-        name: 'Leather Tote Bag',
-        price: 799,
+        name: 'Summer Floral Maxi',
+        price: 749,
         category: 'women',
-        image: 'https://images.unsplash.com/photo-1548036328-c9fa89d128fa?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-        isNew: false,
-        isSale: false
+        images: [
+            'images/products/women/WhatsApp Image 2025-08-11 at 18.44.52_f9bea088.jpg',
+            'images/products/women/WhatsApp Image 2025-08-11 at 18.47.55_d871ccdc.jpg'
+        ],
+        isNew: true,
+        isSale: true,
+        description: 'Light and airy maxi dress with floral pattern.'
     },
     {
         id: 4,
-        name: 'Tailored Suit',
-        price: 1899,
-        category: 'men',
-        image: 'https://images.unsplash.com/photo-1591047139829-d91aecb6caea?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+        name: 'Elegant Evening Gown',
+        price: 1599,
+        category: 'women',
+        images: [
+            'images/products/women/WhatsApp Image 2025-08-11 at 18.50.19_4969bbbb.jpg',
+            'images/products/women/WhatsApp Image 2025-08-11 at 18.50.39_844cdf76.jpg'
+        ],
         isNew: true,
-        isSale: false
+        isSale: false,
+        description: 'Stunning evening gown for special occasions.'
     },
     {
         id: 5,
-        name: 'Cashmere Sweater',
-        price: 499,
-        category: 'men',
-        image: 'https://images.unsplash.com/photo-1507680434564-8549f845bf26?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+        name: 'Casual Summer Dress',
+        price: 599,
+        category: 'women',
+        images: [
+            'images/products/women/WhatsApp Image 2025-08-11 at 18.51.38_5993f791.jpg',
+            'images/products/women/WhatsApp Image 2025-08-11 at 18.52.50_00fad569.jpg'
+        ],
         isNew: false,
-        isSale: true
+        isSale: true,
+        description: 'Comfortable and stylish summer dress.'
     },
     {
         id: 6,
-        name: 'Diamond Pendant',
-        price: 2999,
-        category: 'jewelry',
-        image: 'https://images.unsplash.com/photo-1605100804763-247f67b3557e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+        name: 'Chic Office Dress',
+        price: 849,
+        category: 'women',
+        images: [
+            'images/products/women/WhatsApp Image 2025-08-11 at 18.52.50_abb0fa3c.jpg',
+            'images/products/women/WhatsApp Image 2025-08-11 at 18.55.51_9c043a0c.jpg'
+        ],
         isNew: true,
-        isSale: false
+        isSale: false,
+        description: 'Professional and elegant office dress.'
     },
+    
+    // Men's Collection
     {
         id: 7,
-        name: 'Pearl Earrings',
-        price: 899,
-        category: 'jewelry',
-        image: 'https://images.unsplash.com/photo-1608042314453-ae33882fbc16?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-        isNew: false,
-        isSale: true
+        name: 'Classic Suit Set',
+        price: 1799,
+        category: 'men',
+        images: [
+            'images/products/men/WhatsApp Image 2025-08-11 at 18.55.51_f0d64fbd.jpg',
+            'images/products/men/WhatsApp Image 2025-08-11 at 19.00.42_1cb32cee.jpg'
+        ],
+        isNew: true,
+        isSale: false,
+        description: 'Elegant suit set for formal occasions.'
     },
     {
         id: 8,
-        name: 'Gold Bangle',
-        price: 1599,
+        name: 'Casual Blazer',
+        price: 1299,
+        category: 'men',
+        images: [
+            'images/products/men/WhatsApp Image 2025-08-11 at 19.00.43_94118471.jpg',
+            'images/products/men/WhatsApp Image 2025-08-11 at 19.02.55_5a85d5b0.jpg'
+        ],
+        isNew: true,
+        isSale: false,
+        description: 'Versatile blazer for smart casual looks.'
+    },
+    
+    // Jewelry
+    {
+        id: 9,
+        name: 'Diamond Necklace',
+        price: 3499,
         category: 'jewelry',
-        image: 'https://images.unsplash.com/photo-1603974379129-1b7b8b1b1b1b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+        images: [
+            'images/products/jewelry/WhatsApp Image 2025-08-11 at 19.04.32_264a7571.jpg',
+            'images/products/jewelry/WhatsApp Image 2025-08-11 at 19.06.19_4e2e739a.jpg'
+        ],
+        isNew: true,
+        isSale: false,
+        description: 'Exquisite diamond necklace for special occasions.'
+    },
+    {
+        id: 10,
+        name: 'Gold Bangle Set',
+        price: 2199,
+        category: 'jewelry',
+        images: [
+            'images/products/jewelry/WhatsApp Image 2025-08-11 at 19.06.20_017f2b1c.jpg',
+            'images/products/jewelry/WhatsApp Image 2025-08-11 at 19.13.15_21fb6206.jpg'
+        ],
+        isNew: true,
+        isSale: true,
+        description: 'Elegant set of gold bangles, perfect for layering.'
+    },
+    
+    // Bags
+    {
+        id: 11,
+        name: 'Designer Handbag',
+        price: 1599,
+        category: 'bags',
+        images: [
+            'images/products/bags/WhatsApp Image 2025-08-11 at 19.13.16_3fc61c87.jpg',
+            'images/products/bags/WhatsApp Image 2025-08-11 at 19.13.16_c8a7b32a.jpg'
+        ],
+        isNew: true,
+        isSale: false,
+        description: 'Luxurious designer handbag for the fashion-forward.'
+    },
+    
+    // Shoes
+    {
+        id: 12,
+        name: 'Elegant Heels',
+        price: 899,
+        category: 'shoes',
+        images: [
+            'images/products/shoes/WhatsApp Image 2025-08-11 at 19.17.54_5ab16ff6.jpg',
+            'images/products/shoes/WhatsApp Image 2025-08-11 at 19.17.54_793ec1d6.jpg'
+        ],
+        isNew: true,
+        isSale: true,
+        description: 'Stylish heels perfect for any occasion.'
+    },
+    
+    // Hats & Accessories
+    {
+        id: 13,
+        name: 'Fashionable Fedora',
+        price: 249,
+        category: 'hats',
+        images: [
+            'images/products/hats/WhatsApp Image 2025-08-11 at 19.20.14_2e9b1b0c.jpg',
+            'images/products/hats/WhatsApp Image 2025-08-11 at 19.20.14_4a2c4b1c.jpg'
+        ],
+        isNew: true,
+        isSale: true,
+        description: 'Trendy fedora hat for a chic look.'
+    },
+    
+    // Girls' Collection
+    {
+        id: 14,
+        name: 'Summer Floral Dress',
+        price: 129,
+        category: 'girls',
+        images: [
+            'images/products/girls/WhatsApp Image 2025-08-11 at 19.20.15_8a3d0d7d.jpg',
+            'images/products/girls/WhatsApp Image 2025-08-11 at 19.22.46_0a8e1a8f.jpg'
+        ],
+        isNew: true,
+        isSale: false,
+        description: 'Beautiful floral dress for young girls.'
+    },
+    
+    // Women's Additional Items
+    {
+        id: 15,
+        name: 'Elegant Black Gown',
+        price: 1499,
+        category: 'women',
+        images: [
+            'images/products/women/WhatsApp Image 2025-08-11 at 19.22.47_3c0a9a4f.jpg',
+            'images/products/women/WhatsApp Image 2025-08-11 at 19.25.27_9e1f1c8f.jpg'
+        ],
+        isNew: true,
+        isSale: false,
+        description: 'Stunning black gown for formal events.'
+    },
+    {
+        id: 16,
+        name: 'Casual Summer Outfit',
+        price: 899,
+        category: 'women',
+        images: [
+            'images/products/women/WhatsApp Image 2025-08-11 at 19.25.28_1e6f9d4f.jpg',
+            'images/products/women/WhatsApp Image 2025-08-11 at 19.28.04_5e9f9e0f.jpg'
+        ],
+        isNew: true,
+        isSale: true,
+        description: 'Comfortable and stylish summer outfit.'
+    },
+    
+    // Additional Products
+    {
+        id: 17,
+        name: 'Silk Scarf',
+        price: 249,
+        category: 'women',
+        images: ['images/products/women/silk-scarf.jpg'],
+        isNew: true,
+        isSale: false,
+        description: 'Luxurious silk scarf with elegant print.'
+    },
+    {
+        id: 18,
+        name: 'Leather Belt',
+        price: 199,
+        category: 'men',
+        images: ['images/products/men/leather-belt.jpg'],
         isNew: false,
-        isSale: false
+        isSale: true,
+        description: 'Genuine leather belt with metal buckle.'
+    },
+    {
+        id: 19,
+        name: 'Gold Hoop Earrings',
+        price: 349,
+        category: 'jewelry',
+        images: ['images/products/jewelry/gold-hoops.jpg'],
+        isNew: true,
+        isSale: false,
+        description: 'Elegant gold hoop earrings.'
     }
 ];
 
@@ -78,6 +262,9 @@ const products = [
 const productsGrid = document.querySelector('.products-grid');
 const categoryLinks = document.querySelectorAll('.nav-links a');
 const cartCount = document.querySelector('.cart-count');
+const menuToggle = document.getElementById('mobile-menu');
+const navLinks = document.querySelector('.nav-links');
+const body = document.body;
 
 // Shopping cart
 let cart = [];
@@ -86,86 +273,340 @@ let cart = [];
 document.addEventListener('DOMContentLoaded', () => {
     displayProducts(products);
     setupEventListeners();
+    initMenu();
 });
 
-// Display products in the grid
-function displayProducts(productsToDisplay) {
-    productsGrid.innerHTML = '';
+// Mobile menu functionality
+function initMenu() {
+    if (!menuToggle) return;
     
-    productsToDisplay.forEach(product => {
-        const productCard = createProductCard(product);
-        productsGrid.appendChild(productCard);
+    // Set initial ARIA attributes
+    menuToggle.setAttribute('aria-expanded', 'false');
+    menuToggle.setAttribute('aria-controls', 'main-navigation');
+    menuToggle.setAttribute('aria-label', 'Toggle navigation menu');
+    
+    // Toggle menu function
+    const toggleMenu = () => {
+        const isExpanded = menuToggle.getAttribute('aria-expanded') === 'true';
+        menuToggle.setAttribute('aria-expanded', !isExpanded);
+        navLinks.classList.toggle('active');
+        menuToggle.classList.toggle('active');
+        body.classList.toggle('menu-open');
+        
+        // Prevent body scroll when menu is open
+        if (!isExpanded) {
+            body.style.overflow = 'hidden';
+        } else {
+            body.style.overflow = '';
+        }
+    };
+    
+    // Add click event to menu toggle
+    menuToggle.addEventListener('click', (e) => {
+        e.stopPropagation();
+        toggleMenu();
+    });
+    
+    // Close menu when clicking outside
+    document.addEventListener('click', (e) => {
+        if (!navLinks.contains(e.target) && !menuToggle.contains(e.target)) {
+            navLinks.classList.remove('active');
+            menuToggle.classList.remove('active');
+            body.classList.remove('menu-open');
+            menuToggle.setAttribute('aria-expanded', 'false');
+            body.style.overflow = '';
+        }
+    });
+    
+    // Close menu when clicking on a nav link (for mobile)
+    document.querySelectorAll('.nav-links a').forEach(link => {
+        link.addEventListener('click', () => {
+            if (window.innerWidth <= 992) {
+                navLinks.classList.remove('active');
+                menuToggle.classList.remove('active');
+                body.classList.remove('menu-open');
+                menuToggle.setAttribute('aria-expanded', 'false');
+                body.style.overflow = '';
+            }
+        });
+    });
+    
+    // Handle window resize
+    let resizeTimer;
+    window.addEventListener('resize', () => {
+        // Add a class to stop animations during resize for better performance
+        document.body.classList.add('resize-animation-stopper');
+        clearTimeout(resizeTimer);
+        resizeTimer = setTimeout(() => {
+            document.body.classList.remove('resize-animation-stopper');
+        }, 400);
+        
+        // Reset mobile menu on larger screens
+        if (window.innerWidth > 992) {
+            navLinks.classList.remove('active');
+            menuToggle.classList.remove('active');
+            body.classList.remove('menu-open');
+            menuToggle.setAttribute('aria-expanded', 'false');
+            body.style.overflow = '';
+        }
     });
 }
 
-// Create a product card element
-function createProductCard(product) {
-    const productCard = document.createElement('div');
-    productCard.className = 'product-card';
+// Display products in the grid
+function displayProducts(productsToDisplay) {
+    const productsContainer = document.querySelector('.products-grid');
+    if (!productsContainer) return;
     
-    // Format price
-    const formattedPrice = new Intl.NumberFormat('en-US', {
-        style: 'currency',
-        currency: 'USD',
-        minimumFractionDigits: 0,
-        maximumFractionDigits: 0
-    }).format(product.price);
+    productsContainer.innerHTML = ''; // Clear existing products
     
-    // Badge HTML
-    let badgeHtml = '';
-    if (product.isNew) {
-        badgeHtml = '<span class="product-badge">New</span>';
-    } else if (product.isSale) {
-        badgeHtml = '<span class="product-badge" style="background: #e74c3c">Sale</span>';
+    if (productsToDisplay.length === 0) {
+        productsContainer.innerHTML = '<p class="no-products">No products found in this category.</p>';
+        return;
     }
     
-    productCard.innerHTML = `
-        <div class="product-image">
-            <img src="${product.image}" alt="${product.name}">
-            ${badgeHtml}
-            <div class="product-actions">
-                <button class="quick-view" data-id="${product.id}"><i class="far fa-eye"></i></button>
-                <button class="add-to-wishlist" data-id="${product.id}"><i class="far fa-heart"></i></button>
-                <button class="add-to-cart" data-id="${product.id}"><i class="fas fa-shopping-bag"></i></button>
+    productsToDisplay.forEach(product => {
+        const productCard = document.createElement('div');
+        productCard.className = 'product-card';
+        
+        // Generate carousel HTML
+        const carouselIndicators = product.images.map((_, index) => 
+            `<button class="carousel-indicator ${index === 0 ? 'active' : ''}" data-slide-to="${index}"></button>`
+        ).join('');
+        
+        const carouselItems = product.images.map((img, index) => `
+            <div class="carousel-item ${index === 0 ? 'active' : ''}">
+                <img src="${img}" alt="${product.name} - View ${index + 1}" class="d-block w-100" loading="lazy">
             </div>
-        </div>
-        <div class="product-info">
-            <h3 class="product-title">${product.name}</h3>
-            <p class="product-price">${formattedPrice}</p>
-        </div>
-    `;
+        `).join('');
+        
+        productCard.innerHTML = `
+            <div class="product-image">
+                ${product.isNew ? '<span class="new-badge">New</span>' : ''}
+                ${product.isSale ? '<span class="sale-badge">Sale</span>' : ''}
+                
+                <div class="carousel-container">
+                    <div class="carousel-inner">
+                        ${carouselItems}
+                    </div>
+                    <button class="carousel-control prev">&larr;</button>
+                    <button class="carousel-control next">&rarr;</button>
+                    <div class="carousel-indicators">
+                        ${carouselIndicators}
+                    </div>
+                </div>
+                
+                <div class="product-overlay">
+                    <button class="quick-view" data-id="${product.id}">Quick View</button>
+                    <button class="add-to-cart" data-id="${product.id}">Add to Cart</button>
+                    <button class="add-to-wishlist" data-id="${product.id}">
+                        <i class="far fa-heart"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="product-info">
+                <h3>${product.name}</h3>
+                <p class="price">$${product.price.toFixed(2)}</p>
+                <p class="description">${product.description}</p>
+                <div class="product-actions">
+                    <button class="btn btn-primary view-details" data-id="${product.id}">View Details</button>
+                </div>
+            </div>`;
+            
+        productsContainer.appendChild(productCard);
+    });
     
-    return productCard;
+    // Initialize carousels after products are added to DOM
+    initializeCarousels();
+    
+
+}
+
+function initializeCarousels() {
+    document.querySelectorAll('.carousel-container').forEach(container => {
+        const items = container.querySelectorAll('.carousel-item');
+        const indicators = container.querySelectorAll('.carousel-indicator');
+        let currentIndex = 0;
+        let autoPlayInterval;
+        
+        // Function to show a specific slide
+        function showSlide(index) {
+            // Ensure index is within bounds
+            if (index >= items.length) {
+                currentIndex = 0;
+            } else if (index < 0) {
+                currentIndex = items.length - 1;
+            } else {
+                currentIndex = index;
+            }
+            
+            // Update active state
+            items.forEach((item, i) => {
+                item.classList.toggle('active', i === currentIndex);
+            });
+            
+            indicators.forEach((indicator, i) => {
+                indicator.classList.toggle('active', i === currentIndex);
+            });
+        }
+        
+        // Auto-play functionality
+        function startAutoPlay() {
+            stopAutoPlay();
+            autoPlayInterval = setInterval(() => {
+                showSlide(currentIndex + 1);
+            }, 5000);
+        }
+        
+        function stopAutoPlay() {
+            if (autoPlayInterval) {
+                clearInterval(autoPlayInterval);
+            }
+        }
+        
+        // Initialize first slide
+        showSlide(0);
+        
+        // Add event listeners for previous/next buttons
+        const prevBtn = container.querySelector('.prev');
+        const nextBtn = container.querySelector('.next');
+        
+        if (prevBtn) {
+            prevBtn.addEventListener('click', () => {
+                showSlide(currentIndex - 1);
+                startAutoPlay();
+            });
+        }
+        
+        if (nextBtn) {
+            nextBtn.addEventListener('click', () => {
+                showSlide(currentIndex + 1);
+                startAutoPlay();
+            });
+        }
+        
+        // Add event listeners for indicators
+        indicators.forEach((indicator, index) => {
+            indicator.addEventListener('click', () => {
+                showSlide(index);
+                startAutoPlay();
+            });
+        });
+        
+        // Pause autoplay on hover
+        container.addEventListener('mouseenter', stopAutoPlay);
+        container.addEventListener('mouseleave', startAutoPlay);
+
+        // Start autoplay
+        startAutoPlay();
+
+        // Clean up on window unload
+        window.addEventListener('beforeunload', () => {
+            stopAutoPlay();
+            container.removeEventListener('mouseenter', stopAutoPlay);
+            container.removeEventListener('mouseleave', startAutoPlay);
+        });
+    });
 }
 
 // Set up event listeners
 function setupEventListeners() {
-    // Category filtering
-    categoryLinks.forEach(link => {
+    // Get all navigation links including those in the mobile menu
+    const allNavLinks = document.querySelectorAll('.nav-links a');
+
+    // Handle navigation clicks
+    allNavLinks.forEach(link => {
         link.addEventListener('click', (e) => {
             e.preventDefault();
             
-            // Update active state
-            categoryLinks.forEach(l => l.classList.remove('active'));
-            link.classList.add('active');
+            // Get the target section from href
+            const targetId = link.getAttribute('href');
             
-            // Filter products
-            const category = link.textContent.toLowerCase();
-            if (category === 'home') {
-                displayProducts(products);
-            } else {
-                const filteredProducts = products.filter(p => p.category === category || 
-                    (category === 'jewelry' && p.category === 'jewelry') ||
-                    (category === 'women' && p.category === 'women') ||
-                    (category === 'men' && p.category === 'men'));
-                displayProducts(filteredProducts);
+            // If it's a hash link (section navigation)
+            if (targetId.startsWith('#')) {
+                const targetSection = document.querySelector(targetId);
+                if (targetSection) {
+                    // Calculate the scroll position, accounting for fixed header
+                    const headerOffset = document.querySelector('.navbar').offsetHeight;
+                    const elementPosition = targetSection.getBoundingClientRect().top;
+                    const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+                    // Smooth scroll to the section
+                    window.scrollTo({
+                        top: offsetPosition,
+                        behavior: 'smooth'
+                    });
+                }
             }
             
-            // Scroll to products
-            document.querySelector('.featured-products').scrollIntoView({ behavior: 'smooth' });
+            // If it's a category filter (has data-category attribute)
+            const category = link.dataset.category;
+            if (category) {
+                // Update active state for all nav links
+                allNavLinks.forEach(l => l.classList.remove('active'));
+                link.classList.add('active');
+                
+                // Filter products
+                if (category === 'all') {
+                    displayProducts(products);
+                } else {
+                    const filteredProducts = products.filter(p => p.category === category);
+                    displayProducts(filteredProducts);
+                }
+                
+                // Scroll to products section
+                const productsSection = document.querySelector('#products');
+                if (productsSection) {
+                    const headerOffset = document.querySelector('.navbar').offsetHeight;
+                    const elementPosition = productsSection.getBoundingClientRect().top;
+                    const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+                    
+                    window.scrollTo({
+                        top: offsetPosition,
+                        behavior: 'smooth'
+                    });
+                }
+            }
         });
     });
     
+    // Handle scroll events to highlight current section in navigation
+    window.addEventListener('scroll', throttle(handleScroll, 100));
+    
+    // Helper function to throttle scroll events
+    function throttle(func, limit) {
+        let inThrottle;
+        return function() {
+            const args = arguments;
+            const context = this;
+            if (!inThrottle) {
+                func.apply(context, args);
+                inThrottle = true;
+                setTimeout(() => inThrottle = false, limit);
+            }
+        };
+    }
+
+    // Handle scroll to highlight current section in navigation
+    function handleScroll() {
+        const scrollPosition = window.scrollY + 100; // Add offset for better UX
+        const allNavLinks = document.querySelectorAll('.nav-links a[href^="#"]');
+        
+        document.querySelectorAll('section[id]').forEach(section => {
+            const sectionTop = section.offsetTop;
+            const sectionHeight = section.offsetHeight;
+            const sectionId = section.getAttribute('id');
+            
+            if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+                allNavLinks.forEach(link => {
+                    link.classList.remove('active');
+                    if (link.getAttribute('href') === `#${sectionId}`) {
+                        link.classList.add('active');
+                    }
+                });
+            }
+        });
+    }
+
     // Add to cart
     document.addEventListener('click', (e) => {
         if (e.target.closest('.add-to-cart')) {
@@ -236,7 +677,7 @@ function showQuickView(productId) {
                 <span class="close-modal">&times;</span>
                 <div class="modal-body">
                     <div class="modal-image">
-                        <img src="${product.image}" alt="${product.name}">
+                        <img src="${product.images[0]}" alt="${product.name}">
                     </div>
                     <div class="modal-details">
                         <h2>${product.name}</h2>
