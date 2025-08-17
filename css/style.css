@@ -613,6 +613,397 @@ body.menu-open {
     transform: scale(1.2);
 }
 
+/* Quick View Modal */
+.enlargeable-image {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.enlargeable-image:hover {
+    transform: scale(1.02);
+}
+
+.enlarge-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: rgba(255, 255, 255, 0.9);
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    z-index: 10;
+}
+
+.enlarge-btn:hover {
+    background: #fff;
+    transform: scale(1.1);
+}
+
+.enlarge-btn i {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Fullscreen Image Viewer */
+.image-viewer {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.98);
+    z-index: 2000;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 20px;
+    box-sizing: border-box;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.image-viewer.active {
+    display: flex;
+    opacity: 1;
+}
+
+.viewer-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-container {
+    position: relative;
+    max-width: 95%;
+    max-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#fullscreenImage {
+    max-width: 100%;
+    max-height: 90vh;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.2s ease-out;
+    transform-origin: center center;
+    cursor: grab;
+    touch-action: none;
+}
+
+#fullscreenImage.loaded {
+    opacity: 1;
+}
+
+#fullscreenImage.grabbing {
+    cursor: grabbing;
+}
+
+.loading-spinner {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: 3px solid rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    border-top-color: #c0a080;
+    animation: spin 1s ease-in-out infinite;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.loading-spinner.visible {
+    opacity: 1;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.close-viewer {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    border: none;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 2001;
+    transition: all 0.2s ease;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    padding: 0;
+}
+
+.close-viewer svg {
+    width: 24px;
+    height: 24px;
+    color: #fff;
+    transition: transform 0.2s ease;
+}
+
+.close-viewer:hover {
+    background: rgba(192, 160, 128, 0.8);
+    transform: rotate(90deg);
+}
+
+.close-viewer:active {
+    transform: rotate(90deg) scale(0.95);
+}
+
+.viewer-controls {
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 15px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px 20px;
+    border-radius: 50px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    z-index: 2001;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.image-viewer:hover .viewer-controls {
+    opacity: 1;
+}
+
+.control-btn {
+    background: none;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    color: #fff;
+    padding: 0;
+}
+
+.control-btn svg {
+    width: 20px;
+    height: 20px;
+}
+
+.control-btn:hover {
+    background: rgba(192, 160, 128, 0.8);
+    border-color: transparent;
+    transform: scale(1.1);
+}
+
+.control-btn:active {
+    transform: scale(0.95);
+}
+
+/* Fullscreen styles */
+:fullscreen .viewer-controls,
+:-webkit-full-screen .viewer-controls {
+    bottom: 50px;
+}
+
+:fullscreen .close-viewer,
+:-webkit-full-screen .close-viewer {
+    top: 30px;
+    right: 30px;
+}
+
+/* Hide scrollbar when in fullscreen */
+:fullscreen {
+    width: 100% !important;
+    height: 100% !important;
+    background: #000;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .image-container {
+        max-width: 100%;
+        max-height: 80vh;
+    }
+    
+    #fullscreenImage {
+        max-height: 80vh;
+    }
+    
+    .viewer-controls {
+        bottom: 20px;
+        gap: 10px;
+        padding: 8px 16px;
+    }
+    
+    .control-btn {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+/* Quick View Modal */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+    overflow-y: auto;
+    padding: 2rem;
+}
+
+.modal-content {
+    position: relative;
+    background-color: #fff;
+    margin: 5% auto;
+    max-width: 1000px;
+    width: 90%;
+    border-radius: 8px;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.3);
+    animation: modalFadeIn 0.3s ease-out;
+    overflow: hidden;
+}
+
+@keyframes modalFadeIn {
+    from { opacity: 0; transform: translateY(-50px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.close-modal {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    font-size: 2rem;
+    color: #666;
+    cursor: pointer;
+    z-index: 10;
+    transition: var(--transition);
+}
+
+.close-modal:hover {
+    color: var(--primary-color);
+    transform: rotate(90deg);
+}
+
+.quick-view-container {
+    display: flex;
+    flex-direction: row;
+    max-height: 80vh;
+    overflow: hidden;
+}
+
+.quick-view-image {
+    flex: 1;
+    background: #f8f8f8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.quick-view-image img {
+    max-width: 100%;
+    max-height: 70vh;
+    object-fit: contain;
+}
+
+.quick-view-details {
+    flex: 1;
+    padding: 3rem;
+    overflow-y: auto;
+}
+
+.quick-view-details h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+}
+
+.quick-view-details .price {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--secondary-color);
+    margin-bottom: 1.5rem;
+}
+
+.quick-view-details p {
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+    color: var(--text-color);
+}
+
+.quick-view-actions {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.quick-view-actions .btn {
+    flex: 1;
+    padding: 0.8rem;
+    text-align: center;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .quick-view-container {
+        flex-direction: column;
+        max-height: 90vh;
+    }
+    
+    .quick-view-image {
+        padding: 1rem;
+        max-height: 40vh;
+    }
+    
+    .quick-view-details {
+        padding: 1.5rem;
+        overflow-y: auto;
+    }
+    
+    .quick-view-actions {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    
+    .quick-view-actions .btn {
+        width: 100%;
+    }
+}
+
 /* Product Card Adjustments */
 .product-card {
     position: relative;
