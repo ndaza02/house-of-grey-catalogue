@@ -152,6 +152,69 @@
         </div>
     </footer>
 
+    <!-- Quick View Modal -->
+    <div id="quickViewModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="quick-view-container">
+                <div class="quick-view-image">
+                    <img id="quickViewImg" src="" alt="Product Image" class="enlargeable-image">
+                    <button class="enlarge-btn" aria-label="Enlarge image">
+                        <i class="fas fa-expand"></i>
+                    </button>
+                </div>
+                <div class="quick-view-details">
+                    <h2 id="quickViewTitle"></h2>
+                    <p class="price" id="quickViewPrice"></p>
+                    <p id="quickViewDescription"></p>
+                    <div class="quick-view-actions">
+                        <button class="btn btn-primary add-to-cart" id="quickViewAddToCart">Add to Cart</button>
+                        <button class="btn btn-outline view-details">View Full Details</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Fullscreen Image Viewer -->
+    <div id="imageViewer" class="image-viewer">
+        <div class="viewer-content">
+            <span class="close-viewer" aria-label="Close">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </span>
+            <div class="image-container">
+                <div class="loading-spinner"></div>
+                <img id="fullscreenImage" src="" alt="Fullscreen Product Image" loading="lazy">
+            </div>
+            <div class="viewer-controls">
+                <button class="control-btn zoom-out" aria-label="Zoom Out">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <line x1="8" y1="12" x2="16" y2="12"></line>
+                    </svg>
+                </button>
+                <button class="control-btn zoom-in" aria-label="Zoom In">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <line x1="12" y1="8" x2="12" y2="16"></line>
+                        <line x1="8" y1="12" x2="16" y2="12"></line>
+                    </svg>
+                </button>
+                <button class="control-btn fullscreen" aria-label="Toggle Fullscreen">
+                    <svg class="enter-fullscreen" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"></path>
+                    </svg>
+                    <svg class="exit-fullscreen" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display: none;">
+                        <path d="M8 3v3a2 2 0 0 1-2 2H3m18 0h-3a2 2 0 0 1-2-2V3m0 18v-3a2 2 0 0 1 2-2h3M3 16h3a2 2 0 0 1 2 2v3"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
     <script src="js/script.js"></script>
 </body>
 </html>

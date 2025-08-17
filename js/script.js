@@ -3,7 +3,7 @@ const products = [
     {
         id: 1,
         name: 'Elegant Evening Gown 1',
-        price: 1299,
+        price: 59.14,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0054.jpg'],
         isNew: true,
@@ -13,7 +13,7 @@ const products = [
     {
         id: 2,
         name: 'Elegant Evening Gown 2',
-        price: 1199,
+        price: 53.98,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0055.jpg'],
         isNew: true,
@@ -23,7 +23,7 @@ const products = [
     {
         id: 3,
         name: 'Summer Floral Dress 1',
-        price: 899,
+        price: 45.76,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0056.jpg'],
         isNew: true,
@@ -33,7 +33,7 @@ const products = [
     {
         id: 4,
         name: 'Summer Floral Dress 2',
-        price: 849,
+        price: 51.83,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0057.jpg'],
         isNew: true,
@@ -43,7 +43,7 @@ const products = [
     {
         id: 5,
         name: 'Classic Black Dress',
-        price: 999,
+        price: 46.61,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0058.jpg'],
         isNew: true,
@@ -53,7 +53,7 @@ const products = [
     {
         id: 6,
         name: 'Evening Gown',
-        price: 1399,
+        price: 49.36,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0059.jpg'],
         isNew: true,
@@ -63,7 +63,7 @@ const products = [
     {
         id: 7,
         name: 'Elegant White Blouse',
-        price: 599,
+        price: 50.46,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0060.jpg'],
         isNew: true,
@@ -73,7 +73,7 @@ const products = [
     {
         id: 8,
         name: 'Stylish Top',
-        price: 499,
+        price: 55.19,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0061.jpg'],
         isNew: true,
@@ -83,7 +83,7 @@ const products = [
     {
         id: 9,
         name: 'Casual Summer Outfit 1',
-        price: 699,
+        price: 47.79,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0062.jpg'],
         isNew: true,
@@ -93,7 +93,7 @@ const products = [
     {
         id: 10,
         name: 'Casual Summer Outfit 2',
-        price: 749,
+        price: 56.42,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0063.jpg'],
         isNew: true,
@@ -103,7 +103,7 @@ const products = [
     {
         id: 11,
         name: 'Elegant Dress 1',
-        price: 899,
+        price: 57.46,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0064.jpg'],
         isNew: true,
@@ -113,7 +113,7 @@ const products = [
     {
         id: 12,
         name: 'Elegant Dress 2',
-        price: 949,
+        price: 48.85,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0065.jpg'],
         isNew: true,
@@ -123,7 +123,7 @@ const products = [
     {
         id: 13,
         name: 'Stylish Outfit 1',
-        price: 799,
+        price: 56.12,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0066.jpg'],
         isNew: true,
@@ -133,7 +133,7 @@ const products = [
     {
         id: 14,
         name: 'Stylish Outfit 2',
-        price: 849,
+        price: 45.66,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0067.jpg'],
         isNew: true,
@@ -143,7 +143,7 @@ const products = [
     {
         id: 15,
         name: 'Casual Dress 1',
-        price: 699,
+        price: 52.15,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0068.jpg'],
         isNew: true,
@@ -153,7 +153,7 @@ const products = [
     {
         id: 16,
         name: 'Casual Dress 2',
-        price: 749,
+        price: 49.82,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0069.jpg'],
         isNew: true,
@@ -163,7 +163,7 @@ const products = [
     {
         id: 17,
         name: 'Summer Dress 1',
-        price: 799,
+        price: 52.68,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0070.jpg'],
         isNew: true,
@@ -173,7 +173,7 @@ const products = [
     {
         id: 18,
         name: 'Summer Dress 2',
-        price: 849,
+        price: 49.42,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0071.jpg'],
         isNew: true,
@@ -183,7 +183,7 @@ const products = [
     {
         id: 19,
         name: 'Formal Dress 1',
-        price: 999,
+        price: 59.76,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0072.jpg'],
         isNew: true,
@@ -193,7 +193,7 @@ const products = [
     {
         id: 20,
         name: 'Formal Dress 2',
-        price: 1049,
+        price: 56.53,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0073.jpg'],
         isNew: true,
@@ -203,7 +203,7 @@ const products = [
     {
         id: 21,
         name: 'Evening Gown 1',
-        price: 1199,
+        price: 48.37,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0074.jpg'],
         isNew: true,
@@ -213,7 +213,7 @@ const products = [
     {
         id: 22,
         name: 'Evening Gown 2',
-        price: 1249,
+        price: 59.81,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0075.jpg'],
         isNew: true,
@@ -223,7 +223,7 @@ const products = [
     {
         id: 23,
         name: 'Designer Dress 1',
-        price: 1399,
+        price: 47.72,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0076.jpg'],
         isNew: true,
@@ -233,7 +233,7 @@ const products = [
     {
         id: 24,
         name: 'Designer Dress 2',
-        price: 1449,
+        price: 58.17,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0077.jpg'],
         isNew: true,
@@ -243,7 +243,7 @@ const products = [
     {
         id: 25,
         name: 'Luxury Gown 1',
-        price: 1599,
+        price: 58.32,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0078.jpg'],
         isNew: true,
@@ -253,7 +253,7 @@ const products = [
     {
         id: 26,
         name: 'Luxury Gown 2',
-        price: 1649,
+        price: 59.42,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0079.jpg'],
         isNew: true,
@@ -263,7 +263,7 @@ const products = [
     {
         id: 27,
         name: 'Premium Dress 1',
-        price: 1499,
+        price: 45.53,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0080.jpg'],
         isNew: true,
@@ -273,7 +273,7 @@ const products = [
     {
         id: 28,
         name: 'Premium Dress 2',
-        price: 1549,
+        price: 55.68,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0081.jpg'],
         isNew: true,
@@ -283,7 +283,7 @@ const products = [
     {
         id: 29,
         name: 'Exclusive Gown',
-        price: 1699,
+        price: 56.95,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0082.jpg'],
         isNew: true,
@@ -294,7 +294,7 @@ const products = [
     {
         id: 30,
         name: 'Casual Outfit 1',
-        price: 1562,
+        price: 48.35,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0083.jpg'],
         isNew: true,
@@ -305,7 +305,7 @@ const products = [
     {
         id: 31,
         name: 'Formal Gown 2',
-        price: 1714,
+        price: 45.75,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0084.jpg'],
         isNew: true,
@@ -316,7 +316,7 @@ const products = [
     {
         id: 32,
         name: 'Designer Dress 3',
-        price: 1182,
+        price: 45.97,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0085.jpg'],
         isNew: true,
@@ -327,7 +327,7 @@ const products = [
     {
         id: 33,
         name: 'Chic Ensemble 4',
-        price: 1905,
+        price: 59.4,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0086.jpg'],
         isNew: true,
@@ -338,7 +338,7 @@ const products = [
     {
         id: 34,
         name: 'Stylish Outfit 5',
-        price: 1629,
+        price: 55.32,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0087.jpg'],
         isNew: true,
@@ -349,7 +349,7 @@ const products = [
     {
         id: 35,
         name: 'Fashionable Gown 6',
-        price: 1288,
+        price: 58.55,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0088.jpg'],
         isNew: true,
@@ -360,7 +360,7 @@ const products = [
     {
         id: 36,
         name: 'Elegant Gown 7',
-        price: 2139,
+        price: 52.41,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0090.jpg'],
         isNew: true,
@@ -371,7 +371,7 @@ const products = [
     {
         id: 37,
         name: 'Summer Dress 8',
-        price: 1988,
+        price: 56.36,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0092.jpg'],
         isNew: true,
@@ -382,7 +382,7 @@ const products = [
     {
         id: 38,
         name: 'Evening Dress 9',
-        price: 1340,
+        price: 47.59,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0093.jpg'],
         isNew: true,
@@ -393,7 +393,7 @@ const products = [
     {
         id: 39,
         name: 'Cocktail Dress 10',
-        price: 1448,
+        price: 46.66,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0094.jpg'],
         isNew: false,
@@ -404,7 +404,7 @@ const products = [
     {
         id: 40,
         name: 'Maxi Dress 11',
-        price: 1157,
+        price: 45.3,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0095.jpg'],
         isNew: true,
@@ -415,7 +415,7 @@ const products = [
     {
         id: 41,
         name: 'Party Dress 12',
-        price: 1282,
+        price: 47.15,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0096.jpg'],
         isNew: true,
@@ -426,7 +426,7 @@ const products = [
     {
         id: 42,
         name: 'Casual Outfit 13',
-        price: 2041,
+        price: 49.61,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0097.jpg'],
         isNew: false,
@@ -437,7 +437,7 @@ const products = [
     {
         id: 43,
         name: 'Formal Gown 14',
-        price: 2341,
+        price: 55.28,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0098.jpg'],
         isNew: false,
@@ -448,7 +448,7 @@ const products = [
     {
         id: 44,
         name: 'Designer Dress 15',
-        price: 1423,
+        price: 49.38,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0099.jpg'],
         isNew: true,
@@ -459,7 +459,7 @@ const products = [
     {
         id: 45,
         name: 'Chic Ensemble 16',
-        price: 2428,
+        price: 53.9,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0101.jpg'],
         isNew: true,
@@ -470,7 +470,7 @@ const products = [
     {
         id: 46,
         name: 'Stylish Outfit 17',
-        price: 1795,
+        price: 54.28,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0103.jpg'],
         isNew: false,
@@ -481,7 +481,7 @@ const products = [
     {
         id: 47,
         name: 'Fashionable Gown 18',
-        price: 1950,
+        price: 47.66,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0105.jpg'],
         isNew: true,
@@ -492,7 +492,7 @@ const products = [
     {
         id: 48,
         name: 'Elegant Gown 19',
-        price: 813,
+        price: 51.29,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0107.jpg'],
         isNew: false,
@@ -503,7 +503,7 @@ const products = [
     {
         id: 49,
         name: 'Summer Dress 20',
-        price: 1750,
+        price: 50.59,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0109.jpg'],
         isNew: true,
@@ -514,7 +514,7 @@ const products = [
     {
         id: 50,
         name: 'Evening Dress 21',
-        price: 2002,
+        price: 45.47,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0111.jpg'],
         isNew: true,
@@ -525,7 +525,7 @@ const products = [
     {
         id: 51,
         name: 'Cocktail Dress 22',
-        price: 1186,
+        price: 52.12,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0113.jpg'],
         isNew: true,
@@ -536,7 +536,7 @@ const products = [
     {
         id: 52,
         name: 'Maxi Dress 23',
-        price: 1185,
+        price: 45.88,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0115.jpg'],
         isNew: true,
@@ -547,7 +547,7 @@ const products = [
     {
         id: 53,
         name: 'Party Dress 24',
-        price: 2162,
+        price: 55.64,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0117.jpg'],
         isNew: true,
@@ -558,7 +558,7 @@ const products = [
     {
         id: 54,
         name: 'Casual Outfit 25',
-        price: 914,
+        price: 51.04,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0119.jpg'],
         isNew: false,
@@ -569,7 +569,7 @@ const products = [
     {
         id: 55,
         name: 'Formal Gown 26',
-        price: 2153,
+        price: 53.09,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0121.jpg'],
         isNew: false,
@@ -580,7 +580,7 @@ const products = [
     {
         id: 56,
         name: 'Designer Dress 27',
-        price: 2431,
+        price: 45.6,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0123.jpg'],
         isNew: false,
@@ -591,7 +591,7 @@ const products = [
     {
         id: 57,
         name: 'Chic Ensemble 28',
-        price: 966,
+        price: 48.93,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0125.jpg'],
         isNew: true,
@@ -602,7 +602,7 @@ const products = [
     {
         id: 58,
         name: 'Stylish Outfit 29',
-        price: 1539,
+        price: 50.28,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0127.jpg'],
         isNew: true,
@@ -613,7 +613,7 @@ const products = [
     {
         id: 59,
         name: 'Fashionable Gown 30',
-        price: 1563,
+        price: 50.84,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0130.jpg'],
         isNew: false,
@@ -624,7 +624,7 @@ const products = [
     {
         id: 60,
         name: 'Elegant Gown 31',
-        price: 1479,
+        price: 57.08,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0131.jpg'],
         isNew: true,
@@ -635,7 +635,7 @@ const products = [
     {
         id: 61,
         name: 'Summer Dress 32',
-        price: 1531,
+        price: 50.94,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0132.jpg'],
         isNew: false,
@@ -646,7 +646,7 @@ const products = [
     {
         id: 62,
         name: 'Evening Dress 33',
-        price: 1111,
+        price: 58.4,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0133.jpg'],
         isNew: true,
@@ -657,7 +657,7 @@ const products = [
     {
         id: 63,
         name: 'Cocktail Dress 34',
-        price: 2419,
+        price: 58.05,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0134.jpg'],
         isNew: true,
@@ -668,7 +668,7 @@ const products = [
     {
         id: 64,
         name: 'Maxi Dress 35',
-        price: 1445,
+        price: 50.42,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0135.jpg'],
         isNew: true,
@@ -679,7 +679,7 @@ const products = [
     {
         id: 65,
         name: 'Party Dress 36',
-        price: 1484,
+        price: 45.99,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0136.jpg'],
         isNew: false,
@@ -690,7 +690,7 @@ const products = [
     {
         id: 66,
         name: 'Casual Outfit 37',
-        price: 1521,
+        price: 50.1,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0137.jpg'],
         isNew: true,
@@ -701,7 +701,7 @@ const products = [
     {
         id: 67,
         name: 'Formal Gown 38',
-        price: 1946,
+        price: 49.56,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0138.jpg'],
         isNew: true,
@@ -712,7 +712,7 @@ const products = [
     {
         id: 68,
         name: 'Designer Dress 39',
-        price: 886,
+        price: 55.49,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0139.jpg'],
         isNew: true,
@@ -723,7 +723,7 @@ const products = [
     {
         id: 69,
         name: 'Chic Ensemble 40',
-        price: 1277,
+        price: 57.19,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0140.jpg'],
         isNew: true,
@@ -734,7 +734,7 @@ const products = [
     {
         id: 70,
         name: 'Stylish Outfit 41',
-        price: 1778,
+        price: 49.78,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0141.jpg'],
         isNew: true,
@@ -745,7 +745,7 @@ const products = [
     {
         id: 71,
         name: 'Fashionable Gown 42',
-        price: 2464,
+        price: 46.88,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0142.jpg'],
         isNew: false,
@@ -756,7 +756,7 @@ const products = [
     {
         id: 72,
         name: 'Elegant Gown 43',
-        price: 1276,
+        price: 48.88,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0143.jpg'],
         isNew: false,
@@ -767,7 +767,7 @@ const products = [
     {
         id: 73,
         name: 'Summer Dress 44',
-        price: 2231,
+        price: 52.1,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0144.jpg'],
         isNew: true,
@@ -778,7 +778,7 @@ const products = [
     {
         id: 74,
         name: 'Evening Dress 45',
-        price: 1593,
+        price: 45.45,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0145.jpg'],
         isNew: true,
@@ -789,7 +789,7 @@ const products = [
     {
         id: 75,
         name: 'Cocktail Dress 46',
-        price: 1065,
+        price: 51.09,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0146.jpg'],
         isNew: true,
@@ -800,7 +800,7 @@ const products = [
     {
         id: 76,
         name: 'Maxi Dress 47',
-        price: 1295,
+        price: 56.34,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0147.jpg'],
         isNew: false,
@@ -811,7 +811,7 @@ const products = [
     {
         id: 77,
         name: 'Party Dress 48',
-        price: 1647,
+        price: 50.43,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0148.jpg'],
         isNew: true,
@@ -822,7 +822,7 @@ const products = [
     {
         id: 78,
         name: 'Casual Outfit 49',
-        price: 2136,
+        price: 50.23,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0149.jpg'],
         isNew: false,
@@ -833,7 +833,7 @@ const products = [
     {
         id: 79,
         name: 'Formal Gown 50',
-        price: 1929,
+        price: 58.71,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0150.jpg'],
         isNew: true,
@@ -844,7 +844,7 @@ const products = [
     {
         id: 80,
         name: 'Designer Dress 51',
-        price: 2310,
+        price: 53.48,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0151.jpg'],
         isNew: true,
@@ -855,7 +855,7 @@ const products = [
     {
         id: 81,
         name: 'Chic Ensemble 52',
-        price: 944,
+        price: 49.29,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0152.jpg'],
         isNew: false,
@@ -866,7 +866,7 @@ const products = [
     {
         id: 82,
         name: 'Stylish Outfit 53',
-        price: 2439,
+        price: 51.7,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0153.jpg'],
         isNew: true,
@@ -877,7 +877,7 @@ const products = [
     {
         id: 83,
         name: 'Fashionable Gown 54',
-        price: 1883,
+        price: 59.18,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0154.jpg'],
         isNew: false,
@@ -888,7 +888,7 @@ const products = [
     {
         id: 84,
         name: 'Elegant Gown 55',
-        price: 979,
+        price: 50.69,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0155.jpg'],
         isNew: false,
@@ -899,7 +899,7 @@ const products = [
     {
         id: 85,
         name: 'Summer Dress 56',
-        price: 1183,
+        price: 53.48,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0156.jpg'],
         isNew: true,
@@ -910,7 +910,7 @@ const products = [
     {
         id: 86,
         name: 'Evening Dress 57',
-        price: 1468,
+        price: 53.96,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0157.jpg'],
         isNew: true,
@@ -921,7 +921,7 @@ const products = [
     {
         id: 87,
         name: 'Cocktail Dress 58',
-        price: 1763,
+        price: 52.83,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0158.jpg'],
         isNew: false,
@@ -932,7 +932,7 @@ const products = [
     {
         id: 88,
         name: 'Maxi Dress 59',
-        price: 1306,
+        price: 49.84,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0159.jpg'],
         isNew: true,
@@ -943,7 +943,7 @@ const products = [
     {
         id: 89,
         name: 'Party Dress 60',
-        price: 2063,
+        price: 46.31,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0160.jpg'],
         isNew: true,
@@ -954,7 +954,7 @@ const products = [
     {
         id: 90,
         name: 'Casual Outfit 61',
-        price: 1476,
+        price: 46.51,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0161.jpg'],
         isNew: true,
@@ -965,7 +965,7 @@ const products = [
     {
         id: 91,
         name: 'Formal Gown 62',
-        price: 1420,
+        price: 59.23,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0163.jpg'],
         isNew: true,
@@ -976,7 +976,7 @@ const products = [
     {
         id: 92,
         name: 'Designer Dress 63',
-        price: 2376,
+        price: 45.78,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0164.jpg'],
         isNew: true,
@@ -987,7 +987,7 @@ const products = [
     {
         id: 93,
         name: 'Chic Ensemble 64',
-        price: 1568,
+        price: 50.71,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0165.jpg'],
         isNew: true,
@@ -998,7 +998,7 @@ const products = [
     {
         id: 94,
         name: 'Stylish Outfit 65',
-        price: 1517,
+        price: 56.64,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0166.jpg'],
         isNew: false,
@@ -1009,7 +1009,7 @@ const products = [
     {
         id: 95,
         name: 'Fashionable Gown 66',
-        price: 1325,
+        price: 58.17,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0167.jpg'],
         isNew: true,
@@ -1020,7 +1020,7 @@ const products = [
     {
         id: 96,
         name: 'Elegant Gown 67',
-        price: 1462,
+        price: 50.77,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0168.jpg'],
         isNew: true,
@@ -1031,7 +1031,7 @@ const products = [
     {
         id: 97,
         name: 'Summer Dress 68',
-        price: 1016,
+        price: 53.34,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0169.jpg'],
         isNew: true,
@@ -1042,7 +1042,7 @@ const products = [
     {
         id: 98,
         name: 'Evening Dress 69',
-        price: 991,
+        price: 59.9,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0170.jpg'],
         isNew: true,
@@ -1053,7 +1053,7 @@ const products = [
     {
         id: 99,
         name: 'Cocktail Dress 70',
-        price: 802,
+        price: 45.81,
         category: 'women',
         images: ['images/products/women/IMG-20250816-WA0171.jpg'],
         isNew: true,
@@ -1209,7 +1209,7 @@ function displayProducts(productsToDisplay) {
             </div>
             <div class="product-info">
                 <h3>${product.name}</h3>
-                <p class="price">R${product.price.toFixed(2)}</p>
+                <p class="price">$${Math.round(product.price)}</p>
                 <p class="description">${product.description}</p>
                 <div class="product-actions">
                     <button class="btn btn-primary view-details" data-id="${product.id}">View Details</button>
@@ -1333,8 +1333,20 @@ function setupEventListeners() {
         
         // Quick view
         if (e.target.closest('.quick-view')) {
-            const productId = parseInt(e.target.closest('.quick-view').dataset.id);
-            showQuickView(productId);
+            e.preventDefault();
+            const productId = parseInt(e.target.closest('.quick-view').dataset.id, 10);
+            const product = products.find(p => p.id === productId);
+            if (product && product.images && product.images.length > 0) {
+                // Directly open the image viewer instead of the modal
+                const imageViewer = document.getElementById('imageViewer');
+                const fullscreenImage = document.getElementById('fullscreenImage');
+                
+                fullscreenImage.src = product.images[0];
+                imageViewer.style.display = 'flex';
+                void imageViewer.offsetWidth; // Force reflow
+                imageViewer.classList.add('active');
+                document.body.style.overflow = 'hidden';
+            }
         }
         
         // Add to wishlist
@@ -1376,66 +1388,209 @@ function updateCartCount() {
     cartCount.style.display = cart.length > 0 ? 'flex' : 'none';
 }
 
-// Show quick view modal
-function showQuickView(productId) {
-    const product = products.find(p => p.id === productId);
-    if (!product) return;
+// No longer used, will be removed.
+
+
+// Image viewer functionality
+function initImageViewer() {
+    const imageViewer = document.getElementById('imageViewer');
+    const fullscreenImage = document.getElementById('fullscreenImage');
+    const closeViewer = document.querySelector('.close-viewer');
+    const zoomInBtn = document.querySelector('.zoom-in');
+    const zoomOutBtn = document.querySelector('.zoom-out');
+    const fullscreenBtn = document.querySelector('.fullscreen');
+    const loadingSpinner = document.querySelector('.loading-spinner');
     
-    const formattedPrice = new Intl.NumberFormat('en-US', {
-        style: 'currency',
-        currency: 'USD',
-        minimumFractionDigits: 0,
-        maximumFractionDigits: 0
-    }).format(product.price);
+    // State variables
+    let scale = 1;
+    let isDragging = false;
+    let startPos = { x: 0, y: 0 };
+    let translate = { x: 0, y: 0 };
+    let startTranslate = { x: 0, y: 0 };
     
-    const modalHtml = `
-        <div class="quick-view-modal">
-            <div class="modal-content">
-                <span class="close-modal">&times;</span>
-                <div class="modal-body">
-                    <div class="modal-image">
-                        <img src="${product.images[0]}" alt="${product.name}">
-                    </div>
-                    <div class="modal-details">
-                        <h2>${product.name}</h2>
-                        <p class="price">${formattedPrice}</p>
-                        <p class="description">Experience the epitome of luxury with our ${product.name}. Meticulously crafted with the finest materials, this piece embodies timeless elegance and sophistication.</p>
-                        <div class="actions">
-                            <button class="btn btn-primary add-to-cart" data-id="${product.id}">Add to Cart</button>
-                            <button class="btn btn-outline">View Details</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    `;
+    // Function to update image transform
+    function updateTransform() {
+        fullscreenImage.style.transform = `translate(${translate.x}px, ${translate.y}px) scale(${scale})`;
+    }
     
-    // Add modal to the page
-    document.body.insertAdjacentHTML('beforeend', modalHtml);
+    // Function to reset image transform
+    function resetTransform() {
+        scale = 1;
+        translate = { x: 0, y: 0 };
+        updateTransform();
+    }
     
-    // Close modal when clicking the X
-    const modal = document.querySelector('.quick-view-modal');
-    const closeBtn = modal.querySelector('.close-modal');
+    // Function to handle zoom
+    function zoom(zoomIn = true) {
+        const prevScale = scale;
+        scale = Math.max(0.5, Math.min(zoomIn ? scale * 1.2 : scale / 1.2, 4));
+        
+        // Adjust translate to zoom toward cursor
+        const rect = fullscreenImage.getBoundingClientRect();
+        const centerX = window.innerWidth / 2;
+        const centerY = window.innerHeight / 2;
+        
+        // Calculate the cursor position relative to the image
+        const cursorX = (centerX - rect.left - translate.x) / prevScale;
+        const cursorY = (centerY - rect.top - translate.y) / prevScale;
+        
+        // Calculate new translate values to zoom toward cursor
+        translate.x = centerX - rect.left - (cursorX * scale);
+        translate.y = centerY - rect.top - (cursorY * scale);
+        
+        updateTransform();
+    }
     
-    closeBtn.addEventListener('click', () => {
-        modal.remove();
-    });
+    // Function to toggle fullscreen
+    function toggleFullscreen() {
+        if (!document.fullscreenElement) {
+            if (imageViewer.requestFullscreen) {
+                imageViewer.requestFullscreen();
+            } else if (imageViewer.webkitRequestFullscreen) {
+                imageViewer.webkitRequestFullscreen();
+            }
+            document.querySelector('.enter-fullscreen').style.display = 'none';
+            document.querySelector('.exit-fullscreen').style.display = 'block';
+        } else {
+            if (document.exitFullscreen) {
+                document.exitFullscreen();
+            } else if (document.webkitExitFullscreen) {
+                document.webkitExitFullscreen();
+            }
+            document.querySelector('.enter-fullscreen').style.display = 'block';
+            document.querySelector('.exit-fullscreen').style.display = 'none';
+        }
+    }
     
-    // Close modal when clicking outside
-    window.addEventListener('click', (e) => {
-        if (e.target === modal) {
-            modal.remove();
+    // Function to handle image load
+    function handleImageLoad() {
+        loadingSpinner.classList.remove('visible');
+        fullscreenImage.classList.add('loaded');
+        resetTransform();
+    }
+    
+    // Function to open image viewer
+    function openImageViewer(imageSrc) {
+        if (!imageSrc) return;
+        
+        // Reset state
+        resetTransform();
+        loadingSpinner.classList.add('visible');
+        fullscreenImage.classList.remove('loaded');
+        
+        // Set image source
+        fullscreenImage.src = imageSrc;
+        
+        // Show viewer
+        imageViewer.style.display = 'flex';
+        void imageViewer.offsetWidth; // Force reflow
+        imageViewer.classList.add('active');
+        document.body.style.overflow = 'hidden';
+    }
+    
+    // Function to close image viewer
+    function closeImageViewer() {
+        imageViewer.classList.remove('active');
+        setTimeout(() => {
+            if (!imageViewer.classList.contains('active')) {
+                imageViewer.style.display = 'none';
+                // Exit fullscreen when closing
+                if (document.fullscreenElement) {
+                    if (document.exitFullscreen) {
+                        document.exitFullscreen();
+                    } else if (document.webkitExitFullscreen) {
+                        document.webkitExitFullscreen();
+                    }
+                }
+            }
+        }, 200);
+        document.body.style.overflow = 'auto';
+    }
+    
+    // Event listeners
+    closeViewer.addEventListener('click', closeImageViewer);
+    zoomInBtn.addEventListener('click', () => zoom(true));
+    zoomOutBtn.addEventListener('click', () => zoom(false));
+    fullscreenBtn.addEventListener('click', toggleFullscreen);
+    
+    // Image load handler
+    fullscreenImage.addEventListener('load', handleImageLoad);
+    
+    // Mouse wheel for zoom
+    imageViewer.addEventListener('wheel', (e) => {
+        e.preventDefault();
+        if (e.ctrlKey) { // Zoom with ctrl + wheel
+            const delta = e.deltaY < 0 ? 1 : -1;
+            scale = Math.max(0.5, Math.min(scale + (delta * 0.1), 4));
+            updateTransform();
+        } else { // Pan with mouse wheel
+            translate.x = Math.min(Math.max(translate.x - e.deltaX, -500), 500);
+            translate.y = Math.min(Math.max(translate.y - e.deltaY, -500), 500);
+            updateTransform();
+        }
+    }, { passive: false });
+    
+    // Touch events for mobile
+    let touchStartDistance = 0;
+    let initialTouches = [];
+    
+    imageViewer.addEventListener('touchstart', (e) => {
+        if (e.touches.length === 1) {
+            // Single touch - start drag
+            isDragging = true;
+            startPos = { x: e.touches[0].clientX, y: e.touches[0].clientY };
+            startTranslate = { ...translate };
+        } else if (e.touches.length === 2) {
+            // Two touches - start pinch zoom
+            initialTouches = [
+                { x: e.touches[0].clientX, y: e.touches[0].clientY },
+                { x: e.touches[1].clientX, y: e.touches[1].clientY }
+            ];
+            touchStartDistance = Math.hypot(
+                initialTouches[0].x - initialTouches[1].x,
+                initialTouches[0].y - initialTouches[1].y
+            );
         }
     });
     
-    // Add to cart from modal
-    const addToCartBtn = modal.querySelector('.add-to-cart');
-    if (addToCartBtn) {
-        addToCartBtn.addEventListener('click', () => {
-            addToCart(product.id);
-            modal.remove();
-        });
-    }
+    imageViewer.addEventListener('touchmove', (e) => {
+        e.preventDefault();
+        
+        if (e.touches.length === 1 && isDragging) {
+            // Single touch - drag
+            const dx = e.touches[0].clientX - startPos.x;
+            const dy = e.touches[0].clientY - startPos.y;
+            translate.x = startTranslate.x + dx;
+            translate.y = startTranslate.y + dy;
+            updateTransform();
+        } else if (e.touches.length === 2) {
+            // Two touches - pinch zoom
+            const touch1 = { x: e.touches[0].clientX, y: e.touches[0].clientY };
+            const touch2 = { x: e.touches[1].clientX, y: e.touches[1].clientY };
+            const touchDistance = Math.hypot(touch1.x - touch2.x, touch1.y - touch2.y);
+            
+            if (touchStartDistance > 0) {
+                const newScale = (touchDistance / touchStartDistance) * scale;
+                scale = Math.max(0.5, Math.min(newScale, 4));
+                updateTransform();
+            }
+        }
+    }, { passive: false });
+    
+    imageViewer.addEventListener('touchend', () => {
+        isDragging = false;
+        touchStartDistance = 0;
+    });
+    
+    // Double click to reset zoom
+    fullscreenImage.addEventListener('dblclick', resetTransform);
+    
+    // Close with Escape key
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && imageViewer.classList.contains('active')) {
+            closeImageViewer();
+        }
+    });
 }
 
 // Show notification
