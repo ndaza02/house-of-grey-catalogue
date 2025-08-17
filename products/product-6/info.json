@@ -1,0 +1,9 @@
+{
+  "id": 6,
+  "name": "Slim Fit Jeans",
+  "price": 599,
+  "category": "men",
+  "description": "Comfortable and stylish slim fit jeans.",
+  "isNew": true,
+  "isSale": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": 5,
+  "name": "Classic White Shirt",
+  "price": 299,
+  "category": "men",
+  "description": "Versatile white dress shirt for any occasion.",
+  "isNew": true,
+  "isSale": false
+}

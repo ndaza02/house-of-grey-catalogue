@@ -1,260 +1,294 @@
-// Product data organized by category with actual images
+// Product data for women's collection
 const products = [
-    // Women's Collection
     {
         id: 1,
-        name: 'Elegant Floral Dress',
-        price: 899,
+        name: 'Elegant Evening Gown 1',
+        price: 1299,
         category: 'women',
-        images: [
-            'images/products/women/WhatsApp Image 2025-08-11 at 14.44.51_653f1cc1.jpg',
-            'images/products/women/WhatsApp Image 2025-08-11 at 14.44.52_854fcd18.jpg',
-            'images/products/women/WhatsApp Image 2025-08-11 at 14.44.52_fbfcf875.jpg'
-        ],
+        images: ['images/products/women/IMG-20250816-WA0054.jpg'],
         isNew: true,
         isSale: false,
-        description: 'Beautiful floral dress perfect for summer evenings.'
+        description: 'Stunning evening gown perfect for special occasions.'
     },
     {
         id: 2,
-        name: 'Classic Black Blazer',
-        price: 1299,
+        name: 'Elegant Evening Gown 2',
+        price: 1199,
         category: 'women',
-        images: [
-            'images/products/women/WhatsApp Image 2025-08-11 at 18.44.52_84fbf930.jpg',
-            'images/products/women/WhatsApp Image 2025-08-11 at 18.44.52_baa27cdd.jpg'
-        ],
+        images: ['images/products/women/IMG-20250816-WA0055.jpg'],
         isNew: true,
-        isSale: false,
-        description: 'Timeless black blazer for formal occasions.'
+        isSale: true,
+        description: 'Beautiful gown with elegant design.'
     },
     {
         id: 3,
-        name: 'Summer Floral Maxi',
-        price: 749,
+        name: 'Summer Floral Dress 1',
+        price: 899,
         category: 'women',
-        images: [
-            'images/products/women/WhatsApp Image 2025-08-11 at 18.44.52_f9bea088.jpg',
-            'images/products/women/WhatsApp Image 2025-08-11 at 18.47.55_d871ccdc.jpg'
-        ],
+        images: ['images/products/women/IMG-20250816-WA0056.jpg'],
         isNew: true,
-        isSale: true,
-        description: 'Light and airy maxi dress with floral pattern.'
+        isSale: false,
+        description: 'Light and airy floral dress for summer.'
     },
     {
         id: 4,
-        name: 'Elegant Evening Gown',
-        price: 1599,
+        name: 'Summer Floral Dress 2',
+        price: 849,
         category: 'women',
-        images: [
-            'images/products/women/WhatsApp Image 2025-08-11 at 18.50.19_4969bbbb.jpg',
-            'images/products/women/WhatsApp Image 2025-08-11 at 18.50.39_844cdf76.jpg'
-        ],
+        images: ['images/products/women/IMG-20250816-WA0057.jpg'],
         isNew: true,
-        isSale: false,
-        description: 'Stunning evening gown for special occasions.'
+        isSale: true,
+        description: 'Elegant floral dress for any occasion.'
     },
     {
         id: 5,
-        name: 'Casual Summer Dress',
-        price: 599,
+        name: 'Classic Black Dress',
+        price: 999,
         category: 'women',
-        images: [
-            'images/products/women/WhatsApp Image 2025-08-11 at 18.51.38_5993f791.jpg',
-            'images/products/women/WhatsApp Image 2025-08-11 at 18.52.50_00fad569.jpg'
-        ],
-        isNew: false,
-        isSale: true,
-        description: 'Comfortable and stylish summer dress.'
+        images: ['images/products/women/IMG-20250816-WA0058.jpg'],
+        isNew: true,
+        isSale: false,
+        description: 'Timeless black dress for formal events.'
     },
     {
         id: 6,
-        name: 'Chic Office Dress',
-        price: 849,
+        name: 'Evening Gown',
+        price: 1399,
         category: 'women',
-        images: [
-            'images/products/women/WhatsApp Image 2025-08-11 at 18.52.50_abb0fa3c.jpg',
-            'images/products/women/WhatsApp Image 2025-08-11 at 18.55.51_9c043a0c.jpg'
-        ],
+        images: ['images/products/women/IMG-20250816-WA0059.jpg'],
         isNew: true,
         isSale: false,
-        description: 'Professional and elegant office dress.'
+        description: 'Elegant evening gown for special occasions.'
     },
-    
-    // Men's Collection
     {
         id: 7,
-        name: 'Classic Suit Set',
-        price: 1799,
-        category: 'men',
-        images: [
-            'images/products/men/WhatsApp Image 2025-08-11 at 18.55.51_f0d64fbd.jpg',
-            'images/products/men/WhatsApp Image 2025-08-11 at 19.00.42_1cb32cee.jpg'
-        ],
+        name: 'Elegant White Blouse',
+        price: 599,
+        category: 'women',
+        images: ['images/products/women/IMG-20250816-WA0060.jpg'],
         isNew: true,
-        isSale: false,
-        description: 'Elegant suit set for formal occasions.'
+        isSale: true,
+        description: 'Chic white blouse for a sophisticated look.'
     },
     {
         id: 8,
-        name: 'Casual Blazer',
-        price: 1299,
-        category: 'men',
-        images: [
-            'images/products/men/WhatsApp Image 2025-08-11 at 19.00.43_94118471.jpg',
-            'images/products/men/WhatsApp Image 2025-08-11 at 19.02.55_5a85d5b0.jpg'
-        ],
+        name: 'Stylish Top',
+        price: 499,
+        category: 'women',
+        images: ['images/products/women/IMG-20250816-WA0061.jpg'],
         isNew: true,
         isSale: false,
-        description: 'Versatile blazer for smart casual looks.'
+        description: 'Trendy top for any casual occasion.'
     },
-    
-    // Jewelry
     {
         id: 9,
-        name: 'Diamond Necklace',
-        price: 3499,
-        category: 'jewelry',
-        images: [
-            'images/products/jewelry/WhatsApp Image 2025-08-11 at 19.04.32_264a7571.jpg',
-            'images/products/jewelry/WhatsApp Image 2025-08-11 at 19.06.19_4e2e739a.jpg'
-        ],
-        isNew: true,
-        isSale: false,
-        description: 'Exquisite diamond necklace for special occasions.'
-    },
-    {
-        id: 10,
-        name: 'Gold Bangle Set',
-        price: 2199,
-        category: 'jewelry',
-        images: [
-            'images/products/jewelry/WhatsApp Image 2025-08-11 at 19.06.20_017f2b1c.jpg',
-            'images/products/jewelry/WhatsApp Image 2025-08-11 at 19.13.15_21fb6206.jpg'
-        ],
-        isNew: true,
-        isSale: true,
-        description: 'Elegant set of gold bangles, perfect for layering.'
-    },
-    
-    // Bags
-    {
-        id: 11,
-        name: 'Designer Handbag',
-        price: 1599,
-        category: 'bags',
-        images: [
-            'images/products/bags/WhatsApp Image 2025-08-11 at 19.13.16_3fc61c87.jpg',
-            'images/products/bags/WhatsApp Image 2025-08-11 at 19.13.16_c8a7b32a.jpg'
-        ],
-        isNew: true,
-        isSale: false,
-        description: 'Luxurious designer handbag for the fashion-forward.'
-    },
-    
-    // Shoes
-    {
-        id: 12,
-        name: 'Elegant Heels',
-        price: 899,
-        category: 'shoes',
-        images: [
-            'images/products/shoes/WhatsApp Image 2025-08-11 at 19.17.54_5ab16ff6.jpg',
-            'images/products/shoes/WhatsApp Image 2025-08-11 at 19.17.54_793ec1d6.jpg'
-        ],
-        isNew: true,
-        isSale: true,
-        description: 'Stylish heels perfect for any occasion.'
-    },
-    
-    // Hats & Accessories
-    {
-        id: 13,
-        name: 'Fashionable Fedora',
-        price: 249,
-        category: 'hats',
-        images: [
-            'images/products/hats/WhatsApp Image 2025-08-11 at 19.20.14_2e9b1b0c.jpg',
-            'images/products/hats/WhatsApp Image 2025-08-11 at 19.20.14_4a2c4b1c.jpg'
-        ],
-        isNew: true,
-        isSale: true,
-        description: 'Trendy fedora hat for a chic look.'
-    },
-    
-    // Girls' Collection
-    {
-        id: 14,
-        name: 'Summer Floral Dress',
-        price: 129,
-        category: 'girls',
-        images: [
-            'images/products/girls/WhatsApp Image 2025-08-11 at 19.20.15_8a3d0d7d.jpg',
-            'images/products/girls/WhatsApp Image 2025-08-11 at 19.22.46_0a8e1a8f.jpg'
-        ],
-        isNew: true,
-        isSale: false,
-        description: 'Beautiful floral dress for young girls.'
-    },
-    
-    // Women's Additional Items
-    {
-        id: 15,
-        name: 'Elegant Black Gown',
-        price: 1499,
+        name: 'Casual Summer Outfit 1',
+        price: 699,
         category: 'women',
-        images: [
-            'images/products/women/WhatsApp Image 2025-08-11 at 19.22.47_3c0a9a4f.jpg',
-            'images/products/women/WhatsApp Image 2025-08-11 at 19.25.27_9e1f1c8f.jpg'
-        ],
-        isNew: true,
-        isSale: false,
-        description: 'Stunning black gown for formal events.'
-    },
-    {
-        id: 16,
-        name: 'Casual Summer Outfit',
-        price: 899,
-        category: 'women',
-        images: [
-            'images/products/women/WhatsApp Image 2025-08-11 at 19.25.28_1e6f9d4f.jpg',
-            'images/products/women/WhatsApp Image 2025-08-11 at 19.28.04_5e9f9e0f.jpg'
-        ],
+        images: ['images/products/women/IMG-20250816-WA0062.jpg'],
         isNew: true,
         isSale: true,
         description: 'Comfortable and stylish summer outfit.'
     },
-    
-    // Additional Products
     {
-        id: 17,
-        name: 'Silk Scarf',
-        price: 249,
+        id: 10,
+        name: 'Casual Summer Outfit 2',
+        price: 749,
         category: 'women',
-        images: ['images/products/women/silk-scarf.jpg'],
+        images: ['images/products/women/IMG-20250816-WA0063.jpg'],
         isNew: true,
         isSale: false,
-        description: 'Luxurious silk scarf with elegant print.'
+        description: 'Perfect summer outfit for any occasion.'
+    },
+    {
+        id: 11,
+        name: 'Elegant Dress 1',
+        price: 899,
+        category: 'women',
+        images: ['images/products/women/IMG-20250816-WA0064.jpg'],
+        isNew: true,
+        isSale: false,
+        description: 'Elegant dress for special events.'
+    },
+    {
+        id: 12,
+        name: 'Elegant Dress 2',
+        price: 949,
+        category: 'women',
+        images: ['images/products/women/IMG-20250816-WA0065.jpg'],
+        isNew: true,
+        isSale: true,
+        description: 'Beautiful dress for any formal occasion.'
+    },
+    {
+        id: 13,
+        name: 'Stylish Outfit 1',
+        price: 799,
+        category: 'women',
+        images: ['images/products/women/IMG-20250816-WA0066.jpg'],
+        isNew: true,
+        isSale: false,
+        description: 'Trendy outfit for a fashionable look.'
+    },
+    {
+        id: 14,
+        name: 'Stylish Outfit 2',
+        price: 849,
+        category: 'women',
+        images: ['images/products/women/IMG-20250816-WA0067.jpg'],
+        isNew: true,
+        isSale: true,
+        description: 'Chic outfit for any occasion.'
+    },
+    {
+        id: 15,
+        name: 'Casual Dress 1',
+        price: 699,
+        category: 'women',
+        images: ['images/products/women/IMG-20250816-WA0068.jpg'],
+        isNew: true,
+        isSale: false,
+        description: 'Comfortable dress for everyday wear.'
+    },
+    {
+        id: 16,
+        name: 'Casual Dress 2',
+        price: 749,
+        category: 'women',
+        images: ['images/products/women/IMG-20250816-WA0069.jpg'],
+        isNew: true,
+        isSale: true,
+        description: 'Stylish dress for casual outings.'
+    },
+    {
+        id: 17,
+        name: 'Summer Dress 1',
+        price: 799,
+        category: 'women',
+        images: ['images/products/women/IMG-20250816-WA0070.jpg'],
+        isNew: true,
+        isSale: false,
+        description: 'Light and comfortable summer dress.'
     },
     {
         id: 18,
-        name: 'Leather Belt',
-        price: 199,
-        category: 'men',
-        images: ['images/products/men/leather-belt.jpg'],
-        isNew: false,
+        name: 'Summer Dress 2',
+        price: 849,
+        category: 'women',
+        images: ['images/products/women/IMG-20250816-WA0071.jpg'],
+        isNew: true,
         isSale: true,
-        description: 'Genuine leather belt with metal buckle.'
+        description: 'Elegant summer dress for any occasion.'
     },
     {
         id: 19,
-        name: 'Gold Hoop Earrings',
-        price: 349,
-        category: 'jewelry',
-        images: ['images/products/jewelry/gold-hoops.jpg'],
+        name: 'Formal Dress 1',
+        price: 999,
+        category: 'women',
+        images: ['images/products/women/IMG-20250816-WA0072.jpg'],
         isNew: true,
         isSale: false,
-        description: 'Elegant gold hoop earrings.'
+        description: 'Sophisticated dress for formal events.'
+    },
+    {
+        id: 20,
+        name: 'Formal Dress 2',
+        price: 1049,
+        category: 'women',
+        images: ['images/products/women/IMG-20250816-WA0073.jpg'],
+        isNew: true,
+        isSale: true,
+        description: 'Elegant dress for special occasions.'
+    },
+    {
+        id: 21,
+        name: 'Evening Gown 1',
+        price: 1199,
+        category: 'women',
+        images: ['images/products/women/IMG-20250816-WA0074.jpg'],
+        isNew: true,
+        isSale: false,
+        description: 'Stunning evening gown for gala events.'
+    },
+    {
+        id: 22,
+        name: 'Evening Gown 2',
+        price: 1249,
+        category: 'women',
+        images: ['images/products/women/IMG-20250816-WA0075.jpg'],
+        isNew: true,
+        isSale: true,
+        description: 'Glamorous gown for special nights.'
+    },
+    {
+        id: 23,
+        name: 'Designer Dress 1',
+        price: 1399,
+        category: 'women',
+        images: ['images/products/women/IMG-20250816-WA0076.jpg'],
+        isNew: true,
+        isSale: false,
+        description: 'Exclusive designer dress for fashionistas.'
+    },
+    {
+        id: 24,
+        name: 'Designer Dress 2',
+        price: 1449,
+        category: 'women',
+        images: ['images/products/women/IMG-20250816-WA0077.jpg'],
+        isNew: true,
+        isSale: true,
+        description: 'Chic designer dress for the modern woman.'
+    },
+    {
+        id: 25,
+        name: 'Luxury Gown 1',
+        price: 1599,
+        category: 'women',
+        images: ['images/products/women/IMG-20250816-WA0078.jpg'],
+        isNew: true,
+        isSale: false,
+        description: 'Luxurious gown for the most special occasions.'
+    },
+    {
+        id: 26,
+        name: 'Luxury Gown 2',
+        price: 1649,
+        category: 'women',
+        images: ['images/products/women/IMG-20250816-WA0079.jpg'],
+        isNew: true,
+        isSale: true,
+        description: 'Elegant luxury gown for unforgettable events.'
+    },
+    {
+        id: 27,
+        name: 'Premium Dress 1',
+        price: 1499,
+        category: 'women',
+        images: ['images/products/women/IMG-20250816-WA0080.jpg'],
+        isNew: true,
+        isSale: false,
+        description: 'High-end dress for the fashion-forward woman.'
+    },
+    {
+        id: 28,
+        name: 'Premium Dress 2',
+        price: 1549,
+        category: 'women',
+        images: ['images/products/women/IMG-20250816-WA0081.jpg'],
+        isNew: true,
+        isSale: true,
+        description: 'Stylish premium dress for any occasion.'
+    },
+    {
+        id: 29,
+        name: 'Exclusive Gown',
+        price: 1699,
+        category: 'women',
+        images: ['images/products/women/IMG-20250816-WA0082.jpg'],
+        isNew: true,
+        isSale: false,
+        description: 'Exclusive designer gown for the most discerning customers.'
     }
 ];
 
@@ -368,31 +402,16 @@ function displayProducts(productsToDisplay) {
         const productCard = document.createElement('div');
         productCard.className = 'product-card';
         
-        // Generate carousel HTML
-        const carouselIndicators = product.images.map((_, index) => 
-            `<button class="carousel-indicator ${index === 0 ? 'active' : ''}" data-slide-to="${index}"></button>`
-        ).join('');
-        
-        const carouselItems = product.images.map((img, index) => `
-            <div class="carousel-item ${index === 0 ? 'active' : ''}">
-                <img src="${img}" alt="${product.name} - View ${index + 1}" class="d-block w-100" loading="lazy">
-            </div>
-        `).join('');
+        // Get the first image
+        const firstImage = product.images.length > 0 ? product.images[0] : 'images/placeholder.jpg';
         
         productCard.innerHTML = `
             <div class="product-image">
                 ${product.isNew ? '<span class="new-badge">New</span>' : ''}
                 ${product.isSale ? '<span class="sale-badge">Sale</span>' : ''}
                 
-                <div class="carousel-container">
-                    <div class="carousel-inner">
-                        ${carouselItems}
-                    </div>
-                    <button class="carousel-control prev">&larr;</button>
-                    <button class="carousel-control next">&rarr;</button>
-                    <div class="carousel-indicators">
-                        ${carouselIndicators}
-                    </div>
+                <div class="static-image">
+                    <img src="${firstImage}" alt="${product.name}" loading="lazy">
                 </div>
                 
                 <div class="product-overlay">
@@ -413,98 +432,6 @@ function displayProducts(productsToDisplay) {
             </div>`;
             
         productsContainer.appendChild(productCard);
-    });
-    
-    // Initialize carousels after products are added to DOM
-    initializeCarousels();
-    
-
-}
-
-function initializeCarousels() {
-    document.querySelectorAll('.carousel-container').forEach(container => {
-        const items = container.querySelectorAll('.carousel-item');
-        const indicators = container.querySelectorAll('.carousel-indicator');
-        let currentIndex = 0;
-        let autoPlayInterval;
-        
-        // Function to show a specific slide
-        function showSlide(index) {
-            // Ensure index is within bounds
-            if (index >= items.length) {
-                currentIndex = 0;
-            } else if (index < 0) {
-                currentIndex = items.length - 1;
-            } else {
-                currentIndex = index;
-            }
-            
-            // Update active state
-            items.forEach((item, i) => {
-                item.classList.toggle('active', i === currentIndex);
-            });
-            
-            indicators.forEach((indicator, i) => {
-                indicator.classList.toggle('active', i === currentIndex);
-            });
-        }
-        
-        // Auto-play functionality
-        function startAutoPlay() {
-            stopAutoPlay();
-            autoPlayInterval = setInterval(() => {
-                showSlide(currentIndex + 1);
-            }, 5000);
-        }
-        
-        function stopAutoPlay() {
-            if (autoPlayInterval) {
-                clearInterval(autoPlayInterval);
-            }
-        }
-        
-        // Initialize first slide
-        showSlide(0);
-        
-        // Add event listeners for previous/next buttons
-        const prevBtn = container.querySelector('.prev');
-        const nextBtn = container.querySelector('.next');
-        
-        if (prevBtn) {
-            prevBtn.addEventListener('click', () => {
-                showSlide(currentIndex - 1);
-                startAutoPlay();
-            });
-        }
-        
-        if (nextBtn) {
-            nextBtn.addEventListener('click', () => {
-                showSlide(currentIndex + 1);
-                startAutoPlay();
-            });
-        }
-        
-        // Add event listeners for indicators
-        indicators.forEach((indicator, index) => {
-            indicator.addEventListener('click', () => {
-                showSlide(index);
-                startAutoPlay();
-            });
-        });
-        
-        // Pause autoplay on hover
-        container.addEventListener('mouseenter', stopAutoPlay);
-        container.addEventListener('mouseleave', startAutoPlay);
-
-        // Start autoplay
-        startAutoPlay();
-
-        // Clean up on window unload
-        window.addEventListener('beforeunload', () => {
-            stopAutoPlay();
-            container.removeEventListener('mouseenter', stopAutoPlay);
-            container.removeEventListener('mouseleave', startAutoPlay);
-        });
     });
 }
 

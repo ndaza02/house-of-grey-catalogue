@@ -1,0 +1,9 @@
+{
+  "id": 4,
+  "name": "Elegant Evening Gown",
+  "price": 70,
+  "category": "women",
+  "description": "Stunning evening gown for special occasions.",
+  "isNew": true,
+  "isSale": false
+}

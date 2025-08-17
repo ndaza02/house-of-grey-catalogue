@@ -1,0 +1,9 @@
+{
+  "id": 2,
+  "name": "Classic Black Blazer",
+  "price": 45,
+  "category": "women",
+  "description": "Timeless black blazer for formal occasions.",
+  "isNew": true,
+  "isSale": false
+}
