@@ -1,1065 +1,1193 @@
 // Product data for women's collection
 const products = [
-    {
-        id: 1,
-        name: 'Elegant Evening Gown 1',
-        price: 59.14,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0054.jpg'],
-        isNew: true,
-        isSale: false,
-        description: 'Stunning evening gown perfect for special occasions.'
-    },
-    {
-        id: 2,
-        name: 'Elegant Evening Gown 2',
-        price: 53.98,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0055.jpg'],
-        isNew: true,
-        isSale: true,
-        description: 'Beautiful gown with elegant design.'
-    },
-    {
-        id: 3,
-        name: 'Summer Floral Dress 1',
-        price: 45.76,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0056.jpg'],
-        isNew: true,
-        isSale: false,
-        description: 'Light and airy floral dress for summer.'
-    },
-    {
-        id: 4,
-        name: 'Summer Floral Dress 2',
-        price: 51.83,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0057.jpg'],
-        isNew: true,
-        isSale: true,
-        description: 'Elegant floral dress for any occasion.'
-    },
-    {
-        id: 5,
-        name: 'Classic Black Dress',
-        price: 46.61,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0058.jpg'],
-        isNew: true,
-        isSale: false,
-        description: 'Timeless black dress for formal events.'
-    },
-    {
-        id: 6,
-        name: 'Evening Gown',
-        price: 49.36,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0059.jpg'],
-        isNew: true,
-        isSale: false,
-        description: 'Elegant evening gown for special occasions.'
-    },
-    {
-        id: 7,
-        name: 'Elegant White Blouse',
-        price: 50.46,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0060.jpg'],
-        isNew: true,
-        isSale: true,
-        description: 'Chic white blouse for a sophisticated look.'
-    },
-    {
-        id: 8,
-        name: 'Stylish Top',
-        price: 55.19,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0061.jpg'],
-        isNew: true,
-        isSale: false,
-        description: 'Trendy top for any casual occasion.'
-    },
-    {
-        id: 9,
-        name: 'Casual Summer Outfit 1',
-        price: 47.79,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0062.jpg'],
-        isNew: true,
-        isSale: true,
-        description: 'Comfortable and stylish summer outfit.'
-    },
-    {
-        id: 10,
-        name: 'Casual Summer Outfit 2',
-        price: 56.42,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0063.jpg'],
-        isNew: true,
-        isSale: false,
-        description: 'Perfect summer outfit for any occasion.'
-    },
-    {
-        id: 11,
-        name: 'Elegant Dress 1',
-        price: 57.46,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0064.jpg'],
-        isNew: true,
-        isSale: false,
-        description: 'Elegant dress for special events.'
-    },
-    {
-        id: 12,
-        name: 'Elegant Dress 2',
-        price: 48.85,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0065.jpg'],
-        isNew: true,
-        isSale: true,
-        description: 'Beautiful dress for any formal occasion.'
-    },
-    {
-        id: 13,
-        name: 'Stylish Outfit 1',
-        price: 56.12,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0066.jpg'],
-        isNew: true,
-        isSale: false,
-        description: 'Trendy outfit for a fashionable look.'
-    },
-    {
-        id: 14,
-        name: 'Stylish Outfit 2',
-        price: 45.66,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0067.jpg'],
-        isNew: true,
-        isSale: true,
-        description: 'Chic outfit for any occasion.'
-    },
-    {
-        id: 15,
-        name: 'Casual Dress 1',
-        price: 52.15,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0068.jpg'],
-        isNew: true,
-        isSale: false,
-        description: 'Comfortable dress for everyday wear.'
-    },
-    {
-        id: 16,
-        name: 'Casual Dress 2',
-        price: 49.82,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0069.jpg'],
-        isNew: true,
-        isSale: true,
-        description: 'Stylish dress for casual outings.'
-    },
-    {
-        id: 17,
-        name: 'Summer Dress 1',
-        price: 52.68,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0070.jpg'],
-        isNew: true,
-        isSale: false,
-        description: 'Light and comfortable summer dress.'
-    },
-    {
-        id: 18,
-        name: 'Summer Dress 2',
-        price: 49.42,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0071.jpg'],
-        isNew: true,
-        isSale: true,
-        description: 'Elegant summer dress for any occasion.'
-    },
-    {
-        id: 19,
-        name: 'Formal Dress 1',
-        price: 59.76,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0072.jpg'],
-        isNew: true,
-        isSale: false,
-        description: 'Sophisticated dress for formal events.'
-    },
-    {
-        id: 20,
-        name: 'Formal Dress 2',
-        price: 56.53,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0073.jpg'],
-        isNew: true,
-        isSale: true,
-        description: 'Elegant dress for special occasions.'
-    },
-    {
-        id: 21,
-        name: 'Evening Gown 1',
-        price: 48.37,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0074.jpg'],
-        isNew: true,
-        isSale: false,
-        description: 'Stunning evening gown for gala events.'
-    },
-    {
-        id: 22,
-        name: 'Evening Gown 2',
-        price: 59.81,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0075.jpg'],
-        isNew: true,
-        isSale: true,
-        description: 'Glamorous gown for special nights.'
-    },
-    {
-        id: 23,
-        name: 'Designer Dress 1',
-        price: 47.72,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0076.jpg'],
-        isNew: true,
-        isSale: false,
-        description: 'Exclusive designer dress for fashionistas.'
-    },
-    {
-        id: 24,
-        name: 'Designer Dress 2',
-        price: 58.17,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0077.jpg'],
-        isNew: true,
-        isSale: true,
-        description: 'Chic designer dress for the modern woman.'
-    },
-    {
-        id: 25,
-        name: 'Luxury Gown 1',
-        price: 58.32,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0078.jpg'],
-        isNew: true,
-        isSale: false,
-        description: 'Luxurious gown for the most special occasions.'
-    },
-    {
-        id: 26,
-        name: 'Luxury Gown 2',
-        price: 59.42,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0079.jpg'],
-        isNew: true,
-        isSale: true,
-        description: 'Elegant luxury gown for unforgettable events.'
-    },
-    {
-        id: 27,
-        name: 'Premium Dress 1',
-        price: 45.53,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0080.jpg'],
-        isNew: true,
-        isSale: false,
-        description: 'High-end dress for the fashion-forward woman.'
-    },
-    {
-        id: 28,
-        name: 'Premium Dress 2',
-        price: 55.68,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0081.jpg'],
-        isNew: true,
-        isSale: true,
-        description: 'Stylish premium dress for any occasion.'
-    },
-    {
-        id: 29,
-        name: 'Exclusive Gown',
-        price: 56.95,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0082.jpg'],
-        isNew: true,
-        isSale: false,
-        description: 'Exclusive designer gown for the most discerning customers.'
-    },
-
-    {
-        id: 30,
-        name: 'Casual Outfit 1',
-        price: 48.35,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0083.jpg'],
-        isNew: true,
-        isSale: true,
-        description: 'Trendy and fashionable casual outfit, perfect for cocktail parties.'
-    },
-
-    {
-        id: 31,
-        name: 'Formal Gown 2',
-        price: 45.75,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0084.jpg'],
-        isNew: true,
-        isSale: true,
-        description: 'Classic and timeless formal gown, perfect for casual outings.'
-    },
-
-    {
-        id: 32,
-        name: 'Designer Dress 3',
-        price: 45.97,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0085.jpg'],
-        isNew: true,
-        isSale: false,
-        description: 'Handmade with care designer dress, perfect for wedding events.'
-    },
-
-    {
-        id: 33,
-        name: 'Chic Ensemble 4',
-        price: 59.4,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0086.jpg'],
-        isNew: true,
-        isSale: false,
-        description: 'Classic and timeless chic ensemble, perfect for summer days.'
-    },
-
-    {
-        id: 34,
-        name: 'Stylish Outfit 5',
-        price: 55.32,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0087.jpg'],
-        isNew: true,
-        isSale: false,
-        description: 'Handmade with care stylish outfit, perfect for casual outings.'
-    },
-
-    {
-        id: 35,
-        name: 'Fashionable Gown 6',
-        price: 58.55,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0088.jpg'],
-        isNew: true,
-        isSale: false,
-        description: 'Perfect for any occasion fashionable gown, perfect for party nights.'
-    },
-
-    {
-        id: 36,
-        name: 'Elegant Gown 7',
-        price: 52.41,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0090.jpg'],
-        isNew: true,
-        isSale: false,
-        description: 'Handmade with care elegant gown, perfect for party nights.'
-    },
-
-    {
-        id: 37,
-        name: 'Summer Dress 8',
-        price: 56.36,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0092.jpg'],
-        isNew: true,
-        isSale: true,
-        description: 'Elegantly designed summer dress, perfect for evening events.'
-    },
-
-    {
-        id: 38,
-        name: 'Evening Dress 9',
-        price: 47.59,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0093.jpg'],
-        isNew: true,
-        isSale: false,
-        description: 'Elegantly designed evening dress, perfect for formal gatherings.'
-    },
-
-    {
-        id: 39,
-        name: 'Cocktail Dress 10',
-        price: 46.66,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0094.jpg'],
-        isNew: false,
-        isSale: true,
-        description: 'Eye-catching design cocktail dress, perfect for evening events.'
-    },
-
-    {
-        id: 40,
-        name: 'Maxi Dress 11',
-        price: 45.3,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0095.jpg'],
-        isNew: true,
-        isSale: false,
-        description: 'Eye-catching design maxi dress, perfect for formal gatherings.'
-    },
-
-    {
-        id: 41,
-        name: 'Party Dress 12',
-        price: 47.15,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0096.jpg'],
-        isNew: true,
-        isSale: false,
-        description: 'Luxurious and comfortable party dress, perfect for cocktail parties.'
-    },
-
-    {
-        id: 42,
-        name: 'Casual Outfit 13',
-        price: 49.61,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0097.jpg'],
-        isNew: false,
-        isSale: false,
-        description: 'Eye-catching design casual outfit, perfect for wedding events.'
-    },
-
-    {
-        id: 43,
-        name: 'Formal Gown 14',
-        price: 55.28,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0098.jpg'],
-        isNew: false,
-        isSale: true,
-        description: 'Perfect for any occasion formal gown, perfect for formal gatherings.'
-    },
-
-    {
-        id: 44,
-        name: 'Designer Dress 15',
-        price: 49.38,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0099.jpg'],
-        isNew: true,
-        isSale: false,
-        description: 'Handmade with care designer dress, perfect for wedding events.'
-    },
-
-    {
-        id: 45,
-        name: 'Chic Ensemble 16',
-        price: 53.9,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0101.jpg'],
-        isNew: true,
-        isSale: false,
-        description: 'Eye-catching design chic ensemble, perfect for special occasions.'
-    },
-
-    {
-        id: 46,
-        name: 'Stylish Outfit 17',
-        price: 54.28,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0103.jpg'],
-        isNew: false,
-        isSale: false,
-        description: 'Classic and timeless stylish outfit, perfect for cocktail parties.'
-    },
-
-    {
-        id: 47,
-        name: 'Fashionable Gown 18',
-        price: 47.66,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0105.jpg'],
-        isNew: true,
-        isSale: false,
-        description: 'Handmade with care fashionable gown, perfect for wedding events.'
-    },
-
-    {
-        id: 48,
-        name: 'Elegant Gown 19',
-        price: 51.29,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0107.jpg'],
-        isNew: false,
-        isSale: false,
-        description: 'Elegantly designed elegant gown, perfect for evening events.'
-    },
-
-    {
-        id: 49,
-        name: 'Summer Dress 20',
-        price: 50.59,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0109.jpg'],
-        isNew: true,
-        isSale: false,
-        description: 'Luxurious and comfortable summer dress, perfect for cocktail parties.'
-    },
-
-    {
-        id: 50,
-        name: 'Evening Dress 21',
-        price: 45.47,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0111.jpg'],
-        isNew: true,
-        isSale: false,
-        description: 'Elegantly designed evening dress, perfect for formal gatherings.'
-    },
-
-    {
-        id: 51,
-        name: 'Cocktail Dress 22',
-        price: 52.12,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0113.jpg'],
-        isNew: true,
-        isSale: false,
-        description: 'Stylish and comfortable cocktail dress, perfect for wedding events.'
-    },
-
-    {
-        id: 52,
-        name: 'Maxi Dress 23',
-        price: 45.88,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0115.jpg'],
-        isNew: true,
-        isSale: false,
-        description: 'Classic and timeless maxi dress, perfect for summer days.'
-    },
-
-    {
-        id: 53,
-        name: 'Party Dress 24',
-        price: 55.64,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0117.jpg'],
-        isNew: true,
-        isSale: false,
-        description: 'Handmade with care party dress, perfect for casual outings.'
-    },
-
-    {
-        id: 54,
-        name: 'Casual Outfit 25',
-        price: 51.04,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0119.jpg'],
-        isNew: false,
-        isSale: false,
-        description: 'Elegantly designed casual outfit, perfect for casual outings.'
-    },
-
-    {
-        id: 55,
-        name: 'Formal Gown 26',
-        price: 53.09,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0121.jpg'],
-        isNew: false,
-        isSale: false,
-        description: 'Stylish and comfortable formal gown, perfect for casual outings.'
-    },
-
-    {
-        id: 56,
-        name: 'Designer Dress 27',
-        price: 45.6,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0123.jpg'],
-        isNew: false,
-        isSale: false,
-        description: 'Luxurious and comfortable designer dress, perfect for party nights.'
-    },
-
-    {
-        id: 57,
-        name: 'Chic Ensemble 28',
-        price: 48.93,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0125.jpg'],
-        isNew: true,
-        isSale: false,
-        description: 'Elegantly designed chic ensemble, perfect for cocktail parties.'
-    },
-
-    {
-        id: 58,
-        name: 'Stylish Outfit 29',
-        price: 50.28,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0127.jpg'],
-        isNew: true,
-        isSale: false,
-        description: 'Elegantly designed stylish outfit, perfect for casual outings.'
-    },
-
-    {
-        id: 59,
-        name: 'Fashionable Gown 30',
-        price: 50.84,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0130.jpg'],
-        isNew: false,
-        isSale: true,
-        description: 'Stylish and comfortable fashionable gown, perfect for wedding events.'
-    },
-
-    {
-        id: 60,
-        name: 'Elegant Gown 31',
-        price: 57.08,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0131.jpg'],
-        isNew: true,
-        isSale: true,
-        description: 'Handmade with care elegant gown, perfect for special occasions.'
-    },
-
-    {
-        id: 61,
-        name: 'Summer Dress 32',
-        price: 50.94,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0132.jpg'],
-        isNew: false,
-        isSale: false,
-        description: 'Luxurious and comfortable summer dress, perfect for formal gatherings.'
-    },
-
-    {
-        id: 62,
-        name: 'Evening Dress 33',
-        price: 58.4,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0133.jpg'],
-        isNew: true,
-        isSale: false,
-        description: 'Elegantly designed evening dress, perfect for special occasions.'
-    },
-
-    {
-        id: 63,
-        name: 'Cocktail Dress 34',
-        price: 58.05,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0134.jpg'],
-        isNew: true,
-        isSale: false,
-        description: 'Trendy and fashionable cocktail dress, perfect for special occasions.'
-    },
-
-    {
-        id: 64,
-        name: 'Maxi Dress 35',
-        price: 50.42,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0135.jpg'],
-        isNew: true,
-        isSale: true,
-        description: 'Stylish and comfortable maxi dress, perfect for cocktail parties.'
-    },
-
-    {
-        id: 65,
-        name: 'Party Dress 36',
-        price: 45.99,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0136.jpg'],
-        isNew: false,
-        isSale: true,
-        description: 'Stylish and comfortable party dress, perfect for cocktail parties.'
-    },
-
-    {
-        id: 66,
-        name: 'Casual Outfit 37',
-        price: 50.1,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0137.jpg'],
-        isNew: true,
-        isSale: false,
-        description: 'Handmade with care casual outfit, perfect for summer days.'
-    },
-
-    {
-        id: 67,
-        name: 'Formal Gown 38',
-        price: 49.56,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0138.jpg'],
-        isNew: true,
-        isSale: true,
-        description: 'Luxurious and comfortable formal gown, perfect for party nights.'
-    },
-
-    {
-        id: 68,
-        name: 'Designer Dress 39',
-        price: 55.49,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0139.jpg'],
-        isNew: true,
-        isSale: true,
-        description: 'Stylish and comfortable designer dress, perfect for wedding events.'
-    },
-
-    {
-        id: 69,
-        name: 'Chic Ensemble 40',
-        price: 57.19,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0140.jpg'],
-        isNew: true,
-        isSale: false,
-        description: 'Classic and timeless chic ensemble, perfect for formal gatherings.'
-    },
-
-    {
-        id: 70,
-        name: 'Stylish Outfit 41',
-        price: 49.78,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0141.jpg'],
-        isNew: true,
-        isSale: false,
-        description: 'Trendy and fashionable stylish outfit, perfect for special occasions.'
-    },
-
-    {
-        id: 71,
-        name: 'Fashionable Gown 42',
-        price: 46.88,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0142.jpg'],
-        isNew: false,
-        isSale: false,
-        description: 'Elegantly designed fashionable gown, perfect for formal gatherings.'
-    },
-
-    {
-        id: 72,
-        name: 'Elegant Gown 43',
-        price: 48.88,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0143.jpg'],
-        isNew: false,
-        isSale: false,
-        description: 'Elegantly designed elegant gown, perfect for cocktail parties.'
-    },
-
-    {
-        id: 73,
-        name: 'Summer Dress 44',
-        price: 52.1,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0144.jpg'],
-        isNew: true,
-        isSale: false,
-        description: 'Stylish and comfortable summer dress, perfect for special occasions.'
-    },
-
-    {
-        id: 74,
-        name: 'Evening Dress 45',
-        price: 45.45,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0145.jpg'],
-        isNew: true,
-        isSale: false,
-        description: 'Stylish and comfortable evening dress, perfect for party nights.'
-    },
-
-    {
-        id: 75,
-        name: 'Cocktail Dress 46',
-        price: 51.09,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0146.jpg'],
-        isNew: true,
-        isSale: false,
-        description: 'Trendy and fashionable cocktail dress, perfect for formal gatherings.'
-    },
-
-    {
-        id: 76,
-        name: 'Maxi Dress 47',
-        price: 56.34,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0147.jpg'],
-        isNew: false,
-        isSale: true,
-        description: 'Eye-catching design maxi dress, perfect for casual outings.'
-    },
-
-    {
-        id: 77,
-        name: 'Party Dress 48',
-        price: 50.43,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0148.jpg'],
-        isNew: true,
-        isSale: false,
-        description: 'Perfect for any occasion party dress, perfect for cocktail parties.'
-    },
-
-    {
-        id: 78,
-        name: 'Casual Outfit 49',
-        price: 50.23,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0149.jpg'],
-        isNew: false,
-        isSale: true,
-        description: 'Elegantly designed casual outfit, perfect for wedding events.'
-    },
-
-    {
-        id: 79,
-        name: 'Formal Gown 50',
-        price: 58.71,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0150.jpg'],
-        isNew: true,
-        isSale: false,
-        description: 'Perfect for any occasion formal gown, perfect for casual outings.'
-    },
-
-    {
-        id: 80,
-        name: 'Designer Dress 51',
-        price: 53.48,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0151.jpg'],
-        isNew: true,
-        isSale: true,
-        description: 'Luxurious and comfortable designer dress, perfect for casual outings.'
-    },
-
-    {
-        id: 81,
-        name: 'Chic Ensemble 52',
-        price: 49.29,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0152.jpg'],
-        isNew: false,
-        isSale: false,
-        description: 'Handmade with care chic ensemble, perfect for summer days.'
-    },
-
-    {
-        id: 82,
-        name: 'Stylish Outfit 53',
-        price: 51.7,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0153.jpg'],
-        isNew: true,
-        isSale: false,
-        description: 'Luxurious and comfortable stylish outfit, perfect for wedding events.'
-    },
-
-    {
-        id: 83,
-        name: 'Fashionable Gown 54',
-        price: 59.18,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0154.jpg'],
-        isNew: false,
-        isSale: false,
-        description: 'Perfect for any occasion fashionable gown, perfect for party nights.'
-    },
-
-    {
-        id: 84,
-        name: 'Elegant Gown 55',
-        price: 50.69,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0155.jpg'],
-        isNew: false,
-        isSale: false,
-        description: 'Handmade with care elegant gown, perfect for cocktail parties.'
-    },
-
-    {
-        id: 85,
-        name: 'Summer Dress 56',
-        price: 53.48,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0156.jpg'],
-        isNew: true,
-        isSale: true,
-        description: 'Trendy and fashionable summer dress, perfect for casual outings.'
-    },
-
-    {
-        id: 86,
-        name: 'Evening Dress 57',
-        price: 53.96,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0157.jpg'],
-        isNew: true,
-        isSale: false,
-        description: 'Beautifully crafted evening dress, perfect for party nights.'
-    },
-
-    {
-        id: 87,
-        name: 'Cocktail Dress 58',
-        price: 52.83,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0158.jpg'],
-        isNew: false,
-        isSale: false,
-        description: 'Perfect for any occasion cocktail dress, perfect for formal gatherings.'
-    },
-
-    {
-        id: 88,
-        name: 'Maxi Dress 59',
-        price: 49.84,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0159.jpg'],
-        isNew: true,
-        isSale: false,
-        description: 'Eye-catching design maxi dress, perfect for summer days.'
-    },
-
-    {
-        id: 89,
-        name: 'Party Dress 60',
-        price: 46.31,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0160.jpg'],
-        isNew: true,
-        isSale: true,
-        description: 'Classic and timeless party dress, perfect for cocktail parties.'
-    },
-
-    {
-        id: 90,
-        name: 'Casual Outfit 61',
-        price: 46.51,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0161.jpg'],
-        isNew: true,
-        isSale: true,
-        description: 'Eye-catching design casual outfit, perfect for evening events.'
-    },
-
-    {
-        id: 91,
-        name: 'Formal Gown 62',
-        price: 59.23,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0163.jpg'],
-        isNew: true,
-        isSale: false,
-        description: 'Beautifully crafted formal gown, perfect for formal gatherings.'
-    },
-
-    {
-        id: 92,
-        name: 'Designer Dress 63',
-        price: 45.78,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0164.jpg'],
-        isNew: true,
-        isSale: true,
-        description: 'Elegantly designed designer dress, perfect for casual outings.'
-    },
-
-    {
-        id: 93,
-        name: 'Chic Ensemble 64',
-        price: 50.71,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0165.jpg'],
-        isNew: true,
-        isSale: false,
-        description: 'Trendy and fashionable chic ensemble, perfect for special occasions.'
-    },
-
-    {
-        id: 94,
-        name: 'Stylish Outfit 65',
-        price: 56.64,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0166.jpg'],
-        isNew: false,
-        isSale: true,
-        description: 'Eye-catching design stylish outfit, perfect for special occasions.'
-    },
-
-    {
-        id: 95,
-        name: 'Fashionable Gown 66',
-        price: 58.17,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0167.jpg'],
-        isNew: true,
-        isSale: false,
-        description: 'Perfect for any occasion fashionable gown, perfect for formal gatherings.'
-    },
-
-    {
-        id: 96,
-        name: 'Elegant Gown 67',
-        price: 50.77,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0168.jpg'],
-        isNew: true,
-        isSale: false,
-        description: 'Classic and timeless elegant gown, perfect for casual outings.'
-    },
-
-    {
-        id: 97,
-        name: 'Summer Dress 68',
-        price: 53.34,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0169.jpg'],
-        isNew: true,
-        isSale: false,
-        description: 'Trendy and fashionable summer dress, perfect for party nights.'
-    },
-
-    {
-        id: 98,
-        name: 'Evening Dress 69',
-        price: 59.9,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0170.jpg'],
-        isNew: true,
-        isSale: true,
-        description: 'Trendy and fashionable evening dress, perfect for evening events.'
-    },
-
-    {
-        id: 99,
-        name: 'Cocktail Dress 70',
-        price: 45.81,
-        category: 'women',
-        images: ['images/products/women/IMG-20250816-WA0171.jpg'],
-        isNew: true,
-        isSale: true,
-        description: 'Eye-catching design cocktail dress, perfect for casual outings.'
-    }
+  {
+    id: 1,
+    name: "Elegant Evening Gown 1",
+    price: 50,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0054.jpg"
+    ],
+    isNew: true,
+    isSale: false,
+    description: "Stunning evening gown perfect for special occasions."
+  },
+  {
+    id: 2,
+    name: "Elegant Evening Gown 2",
+    price: 35,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0055.jpg"
+    ],
+    isNew: true,
+    isSale: true,
+    description: "Beautiful gown with elegant design."
+  },
+  {
+    id: 3,
+    name: "Summer Floral Dress 1",
+    price: 45,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0056.jpg"
+    ],
+    isNew: true,
+    isSale: false,
+    description: "Light and airy floral dress for summer."
+  },
+  {
+    id: 4,
+    name: "Summer Floral Dress 2",
+    price: 45,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0057.jpg"
+    ],
+    isNew: true,
+    isSale: true,
+    description: "Elegant floral dress for any occasion."
+  },
+  {
+    id: 5,
+    name: "Classic Black Dress",
+    price: 35,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0058.jpg"
+    ],
+    isNew: true,
+    isSale: false,
+    description: "Timeless black dress for formal events."
+  },
+  {
+    id: 6,
+    name: "Evening Gown",
+    price: 45,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0059.jpg"
+    ],
+    isNew: true,
+    isSale: false,
+    description: "Elegant evening gown for special occasions."
+  },
+  {
+    id: 7,
+    name: "Elegant White Blouse",
+    price: 50,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0060.jpg"
+    ],
+    isNew: true,
+    isSale: true,
+    description: "Chic white blouse for a sophisticated look."
+  },
+  {
+    id: 8,
+    name: "Stylish Top",
+    price: 50,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0061.jpg"
+    ],
+    isNew: true,
+    isSale: false,
+    description: "Trendy top for any casual occasion."
+  },
+  {
+    id: 9,
+    name: "Casual Summer Outfit 1",
+    price: 50,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0062.jpg"
+    ],
+    isNew: true,
+    isSale: true,
+    description: "Comfortable and stylish summer outfit."
+  },
+  {
+    id: 10,
+    name: "Casual Summer Outfit 2",
+    price: 50,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0063.jpg"
+    ],
+    isNew: true,
+    isSale: false,
+    description: "Perfect summer outfit for any occasion."
+  },
+  {
+    id: 11,
+    name: "Elegant Dress 1",
+    price: 50,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0064.jpg"
+    ],
+    isNew: true,
+    isSale: false,
+    description: "Elegant dress for special events."
+  },
+  {
+    id: 12,
+    name: "Elegant Dress 2",
+    price: 35,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0065.jpg"
+    ],
+    isNew: true,
+    isSale: true,
+    description: "Beautiful dress for any formal occasion."
+  },
+  {
+    id: 13,
+    name: "Stylish Outfit 1",
+    price: 55,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0066.jpg"
+    ],
+    isNew: true,
+    isSale: false,
+    description: "Trendy outfit for a fashionable look."
+  },
+  {
+    id: 14,
+    name: "Stylish Outfit 2",
+    price: 55,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0067.jpg"
+    ],
+    isNew: true,
+    isSale: true,
+    description: "Chic outfit for any occasion."
+  },
+  {
+    id: 15,
+    name: "Casual Dress 1",
+    price: 55,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0068.jpg"
+    ],
+    isNew: true,
+    isSale: false,
+    description: "Comfortable dress for everyday wear."
+  },
+  {
+    id: 16,
+    name: "Casual Dress 2",
+    price: 50,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0069.jpg"
+    ],
+    isNew: true,
+    isSale: true,
+    description: "Stylish dress for casual outings."
+  },
+  {
+    id: 17,
+    name: "Summer Dress 1",
+    price: 50,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0070.jpg"
+    ],
+    isNew: true,
+    isSale: false,
+    description: "Light and comfortable summer dress."
+  },
+  {
+    id: 18,
+    name: "Summer Dress 2",
+    price: 50,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0071.jpg"
+    ],
+    isNew: true,
+    isSale: true,
+    description: "Elegant summer dress for any occasion."
+  },
+  {
+    id: 19,
+    name: "Formal Dress 1",
+    price: 50,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0072.jpg"
+    ],
+    isNew: true,
+    isSale: false,
+    description: "Sophisticated dress for formal events."
+  },
+  {
+    id: 20,
+    name: "Formal Dress 2",
+    price: 45,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0073.jpg"
+    ],
+    isNew: true,
+    isSale: true,
+    description: "Elegant dress for special occasions."
+  },
+  {
+    id: 21,
+    name: "Evening Gown 1",
+    price: 45,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0074.jpg"
+    ],
+    isNew: true,
+    isSale: false,
+    description: "Stunning evening gown for gala events."
+  },
+  {
+    id: 22,
+    name: "Evening Gown 2",
+    price: 55,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0075.jpg"
+    ],
+    isNew: true,
+    isSale: true,
+    description: "Glamorous gown for special nights."
+  },
+  {
+    id: 23,
+    name: "Designer Dress 1",
+    price: 55,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0076.jpg"
+    ],
+    isNew: true,
+    isSale: false,
+    description: "Exclusive designer dress for fashionistas."
+  },
+  {
+    id: 24,
+    name: "Designer Dress 2",
+    price: 55,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0077.jpg"
+    ],
+    isNew: true,
+    isSale: true,
+    description: "Chic designer dress for the modern woman."
+  },
+  {
+    id: 25,
+    name: "Luxury Gown 1",
+    price: 55,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0078.jpg"
+    ],
+    isNew: true,
+    isSale: false,
+    description: "Luxurious gown for the most special occasions."
+  },
+  {
+    id: 26,
+    name: "Luxury Gown 2",
+    price: 55,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0079.jpg"
+    ],
+    isNew: true,
+    isSale: true,
+    description: "Elegant luxury gown for unforgettable events."
+  },
+  {
+    id: 27,
+    name: "Premium Dress 1",
+    price: 55,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0080.jpg"
+    ],
+    isNew: true,
+    isSale: false,
+    description: "High-end dress for the fashion-forward woman."
+  },
+  {
+    id: 28,
+    name: "Premium Dress 2",
+    price: 50,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0081.jpg"
+    ],
+    isNew: true,
+    isSale: true,
+    description: "Stylish premium dress for any occasion."
+  },
+  {
+    id: 29,
+    name: "Exclusive Gown",
+    price: 45,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0082.jpg"
+    ],
+    isNew: true,
+    isSale: false,
+    description: "Exclusive designer gown for the most discerning customers."
+  },
+  {
+    id: 30,
+    name: "Casual Outfit 1",
+    price: 35,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0083.jpg"
+    ],
+    isNew: true,
+    isSale: true,
+    description: "Trendy and fashionable casual outfit, perfect for cocktail parties."
+  },
+  {
+    id: 31,
+    name: "Formal Gown 2",
+    price: 35,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0084.jpg"
+    ],
+    isNew: true,
+    isSale: true,
+    description: "Classic and timeless formal gown, perfect for casual outings."
+  },
+  {
+    id: 32,
+    name: "Designer Dress 3",
+    price: 35,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0085.jpg"
+    ],
+    isNew: true,
+    isSale: false,
+    description: "Handmade with care designer dress, perfect for wedding events."
+  },
+  {
+    id: 33,
+    name: "Chic Ensemble 4",
+    price: 35,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0086.jpg"
+    ],
+    isNew: true,
+    isSale: false,
+    description: "Classic and timeless chic ensemble, perfect for summer days."
+  },
+  {
+    id: 34,
+    name: "Stylish Outfit 5",
+    price: 50,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0087.jpg"
+    ],
+    isNew: true,
+    isSale: false,
+    description: "Handmade with care stylish outfit, perfect for casual outings."
+  },
+  {
+    id: 35,
+    name: "Fashionable Gown 6",
+    price: 55,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0088.jpg"
+    ],
+    isNew: true,
+    isSale: false,
+    description: "Perfect for any occasion fashionable gown, perfect for party nights."
+  },
+  {
+    id: 36,
+    name: "Elegant Gown 7",
+    price: 50,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0090.jpg"
+    ],
+    isNew: true,
+    isSale: false,
+    description: "Handmade with care elegant gown, perfect for party nights."
+  },
+  {
+    id: 37,
+    name: "Summer Dress 8",
+    price: 50,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0092.jpg"
+    ],
+    isNew: true,
+    isSale: true,
+    description: "Elegantly designed summer dress, perfect for evening events."
+  },
+  {
+    id: 38,
+    name: "Evening Dress 9",
+    price: 35,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0093.jpg"
+    ],
+    isNew: true,
+    isSale: false,
+    description: "Elegantly designed evening dress, perfect for formal gatherings."
+  },
+  {
+    id: 39,
+    name: "Cocktail Dress 10",
+    price: 35,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0094.jpg"
+    ],
+    isNew: false,
+    isSale: true,
+    description: "Eye-catching design cocktail dress, perfect for evening events."
+  },
+  {
+    id: 40,
+    name: "Maxi Dress 11",
+    price: 35,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0095.jpg"
+    ],
+    isNew: true,
+    isSale: false,
+    description: "Eye-catching design maxi dress, perfect for formal gatherings."
+  },
+  {
+    id: 41,
+    name: "Party Dress 12",
+    price: 47.15,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0096.jpg"
+    ],
+    isNew: true,
+    isSale: false,
+    description: "Luxurious and comfortable party dress, perfect for cocktail parties."
+  },
+  {
+    id: 42,
+    name: "Casual Outfit 13",
+    price: 50,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0097.jpg"
+    ],
+    isNew: false,
+    isSale: false,
+    description: "Eye-catching design casual outfit, perfect for wedding events."
+  },
+  {
+    id: 43,
+    name: "Formal Gown 14",
+    price: 40,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0098.jpg"
+    ],
+    isNew: false,
+    isSale: true,
+    description: "Perfect for any occasion formal gown, perfect for formal gatherings."
+  },
+  {
+    id: 44,
+    name: "Designer Dress 15",
+    price: 40,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0099.jpg"
+    ],
+    isNew: true,
+    isSale: false,
+    description: "Handmade with care designer dress, perfect for wedding events."
+  },
+  {
+    id: 45,
+    name: "Chic Ensemble 16",
+    price: 50,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0101.jpg"
+    ],
+    isNew: true,
+    isSale: false,
+    description: "Eye-catching design chic ensemble, perfect for special occasions."
+  },
+  {
+    id: 46,
+    name: "Stylish Outfit 17",
+    price: 50,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0103.jpg"
+    ],
+    isNew: false,
+    isSale: false,
+    description: "Classic and timeless stylish outfit, perfect for cocktail parties."
+  },
+  {
+    id: 47,
+    name: "Fashionable Gown 18",
+    price: 50,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0105.jpg"
+    ],
+    isNew: true,
+    isSale: false,
+    description: "Handmade with care fashionable gown, perfect for wedding events."
+  },
+  {
+    id: 48,
+    name: "Elegant Gown 19",
+    price: 50,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0107.jpg"
+    ],
+    isNew: false,
+    isSale: false,
+    description: "Elegantly designed elegant gown, perfect for evening events."
+  },
+  {
+    id: 49,
+    name: "Summer Dress 20",
+    price: 50,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0109.jpg"
+    ],
+    isNew: true,
+    isSale: false,
+    description: "Luxurious and comfortable summer dress, perfect for cocktail parties."
+  },
+  {
+    id: 50,
+    name: "Evening Dress 21",
+    price: 50,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0111.jpg"
+    ],
+    isNew: true,
+    isSale: false,
+    description: "Elegantly designed evening dress, perfect for formal gatherings."
+  },
+  {
+    id: 51,
+    name: "Cocktail Dress 22",
+    price: 50,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0113.jpg"
+    ],
+    isNew: true,
+    isSale: false,
+    description: "Stylish and comfortable cocktail dress, perfect for wedding events."
+  },
+  {
+    id: 52,
+    name: "Maxi Dress 23",
+    price: 50,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0115.jpg"
+    ],
+    isNew: true,
+    isSale: false,
+    description: "Classic and timeless maxi dress, perfect for summer days."
+  },
+  {
+    id: 53,
+    name: "Party Dress 24",
+    price: 50,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0117.jpg"
+    ],
+    isNew: true,
+    isSale: false,
+    description: "Handmade with care party dress, perfect for casual outings."
+  },
+  {
+    id: 54,
+    name: "Casual Outfit 25",
+    price: 50,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0119.jpg"
+    ],
+    isNew: false,
+    isSale: false,
+    description: "Elegantly designed casual outfit, perfect for casual outings."
+  },
+  {
+    id: 55,
+    name: "Formal Gown 26",
+    price: 50,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0121.jpg"
+    ],
+    isNew: false,
+    isSale: false,
+    description: "Stylish and comfortable formal gown, perfect for casual outings."
+  },
+  {
+    id: 56,
+    name: "Designer Dress 27",
+    price: 50,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0123.jpg"
+    ],
+    isNew: false,
+    isSale: false,
+    description: "Luxurious and comfortable designer dress, perfect for party nights."
+  },
+  {
+    id: 57,
+    name: "Chic Ensemble 28",
+    price: 50,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0125.jpg"
+    ],
+    isNew: true,
+    isSale: false,
+    description: "Elegantly designed chic ensemble, perfect for cocktail parties."
+  },
+  {
+    id: 58,
+    name: "Stylish Outfit 29",
+    price: 50,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0127.jpg"
+    ],
+    isNew: true,
+    isSale: false,
+    description: "Elegantly designed stylish outfit, perfect for casual outings."
+  },
+  {
+    id: 59,
+    name: "Fashionable Gown 30",
+    price: 40,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0130.jpg"
+    ],
+    isNew: false,
+    isSale: true,
+    description: "Stylish and comfortable fashionable gown, perfect for wedding events."
+  },
+  {
+    id: 60,
+    name: "Elegant Gown 31",
+    price: 55,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0131.jpg"
+    ],
+    isNew: true,
+    isSale: true,
+    description: "Handmade with care elegant gown, perfect for special occasions."
+  },
+  {
+    id: 61,
+    name: "Summer Dress 32",
+    price: 50,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0132.jpg"
+    ],
+    isNew: false,
+    isSale: false,
+    description: "Luxurious and comfortable summer dress, perfect for formal gatherings."
+  },
+  {
+    id: 62,
+    name: "Evening Dress 33",
+    price: 35,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0133.jpg"
+    ],
+    isNew: true,
+    isSale: false,
+    description: "Elegantly designed evening dress, perfect for special occasions."
+  },
+  {
+    id: 63,
+    name: "Cocktail Dress 34",
+    price: 35,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0134.jpg"
+    ],
+    isNew: true,
+    isSale: false,
+    description: "Trendy and fashionable cocktail dress, perfect for special occasions."
+  },
+  {
+    id: 64,
+    name: "Maxi Dress 35",
+    price: 35,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0135.jpg"
+    ],
+    isNew: true,
+    isSale: true,
+    description: "Stylish and comfortable maxi dress, perfect for cocktail parties."
+  },
+  {
+    id: 65,
+    name: "Party Dress 36",
+    price: 35,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0136.jpg"
+    ],
+    isNew: false,
+    isSale: true,
+    description: "Stylish and comfortable party dress, perfect for cocktail parties."
+  },
+  {
+    id: 66,
+    name: "Casual Outfit 37",
+    price: 35,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0137.jpg"
+    ],
+    isNew: true,
+    isSale: false,
+    description: "Handmade with care casual outfit, perfect for summer days."
+  },
+  {
+    id: 67,
+    name: "Formal Gown 38",
+    price: 40,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0138.jpg"
+    ],
+    isNew: true,
+    isSale: true,
+    description: "Luxurious and comfortable formal gown, perfect for party nights."
+  },
+  {
+    id: 68,
+    name: "Designer Dress 39",
+    price: 40,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0139.jpg"
+    ],
+    isNew: true,
+    isSale: true,
+    description: "Stylish and comfortable designer dress, perfect for wedding events."
+  },
+  {
+    id: 69,
+    name: "Chic Ensemble 40",
+    price: 40,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0140.jpg"
+    ],
+    isNew: true,
+    isSale: false,
+    description: "Classic and timeless chic ensemble, perfect for formal gatherings."
+  },
+  {
+    id: 70,
+    name: "Stylish Outfit 41",
+    price: 40,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0141.jpg"
+    ],
+    isNew: true,
+    isSale: false,
+    description: "Trendy and fashionable stylish outfit, perfect for special occasions."
+  },
+  {
+    id: 71,
+    name: "Fashionable Gown 42",
+    price: 45,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0142.jpg"
+    ],
+    isNew: false,
+    isSale: false,
+    description: "Elegantly designed fashionable gown, perfect for formal gatherings."
+  },
+  {
+    id: 72,
+    name: "Elegant Gown 43",
+    price: 40,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0143.jpg"
+    ],
+    isNew: false,
+    isSale: false,
+    description: "Elegantly designed elegant gown, perfect for cocktail parties."
+  },
+  {
+    id: 73,
+    name: "Summer Dress 44",
+    price: 45,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0144.jpg"
+    ],
+    isNew: true,
+    isSale: false,
+    description: "Stylish and comfortable summer dress, perfect for special occasions."
+  },
+  {
+    id: 74,
+    name: "Evening Dress 45",
+    price: 40,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0145.jpg"
+    ],
+    isNew: true,
+    isSale: false,
+    description: "Stylish and comfortable evening dress, perfect for party nights."
+  },
+  {
+    id: 75,
+    name: "Cocktail Dress 46",
+    price: 35,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0146.jpg"
+    ],
+    isNew: true,
+    isSale: false,
+    description: "Trendy and fashionable cocktail dress, perfect for formal gatherings."
+  },
+  {
+    id: 76,
+    name: "Maxi Dress 47",
+    price: 45,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0147.jpg"
+    ],
+    isNew: false,
+    isSale: true,
+    description: "Eye-catching design maxi dress, perfect for casual outings."
+  },
+  {
+    id: 77,
+    name: "Party Dress 48",
+    price: 35,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0148.jpg"
+    ],
+    isNew: true,
+    isSale: false,
+    description: "Perfect for any occasion party dress, perfect for cocktail parties."
+  },
+  {
+    id: 78,
+    name: "Casual Outfit 49",
+    price: 35,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0149.jpg"
+    ],
+    isNew: false,
+    isSale: true,
+    description: "Elegantly designed casual outfit, perfect for wedding events."
+  },
+  {
+    id: 79,
+    name: "Formal Gown 50",
+    price: 35,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0150.jpg"
+    ],
+    isNew: true,
+    isSale: false,
+    description: "Perfect for any occasion formal gown, perfect for casual outings."
+  },
+  {
+    id: 80,
+    name: "Designer Dress 51",
+    price: 35,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0151.jpg"
+    ],
+    isNew: true,
+    isSale: true,
+    description: "Luxurious and comfortable designer dress, perfect for casual outings."
+  },
+  {
+    id: 81,
+    name: "Chic Ensemble 52",
+    price: 25,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0152.jpg"
+    ],
+    isNew: false,
+    isSale: false,
+    description: "Handmade with care chic ensemble, perfect for summer days."
+  },
+  {
+    id: 82,
+    name: "Stylish Outfit 53",
+    price: 25,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0153.jpg"
+    ],
+    isNew: true,
+    isSale: false,
+    description: "Luxurious and comfortable stylish outfit, perfect for wedding events."
+  },
+  {
+    id: 83,
+    name: "Fashionable Gown 54",
+    price: 35,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0154.jpg"
+    ],
+    isNew: false,
+    isSale: false,
+    description: "Perfect for any occasion fashionable gown, perfect for party nights."
+  },
+  {
+    id: 84,
+    name: "Elegant Gown 55",
+    price: 35,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0155.jpg"
+    ],
+    isNew: false,
+    isSale: false,
+    description: "Handmade with care elegant gown, perfect for cocktail parties."
+  },
+  {
+    id: 85,
+    name: "Summer Dress 56",
+    price: 15,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0156.jpg"
+    ],
+    isNew: true,
+    isSale: true,
+    description: "Trendy and fashionable summer dress, perfect for casual outings."
+  },
+  {
+    id: 86,
+    name: "Evening Dress 57",
+    price: 5,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0157.jpg"
+    ],
+    isNew: true,
+    isSale: false,
+    description: "Beautifully crafted evening dress, perfect for party nights."
+  },
+  {
+    id: 87,
+    name: "Cocktail Dress 58",
+    price: 5,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0158.jpg"
+    ],
+    isNew: false,
+    isSale: false,
+    description: "Perfect for any occasion cocktail dress, perfect for formal gatherings."
+  },
+  {
+    id: 88,
+    name: "Maxi Dress 59",
+    price: 5,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0159.jpg"
+    ],
+    isNew: true,
+    isSale: false,
+    description: "Eye-catching design maxi dress, perfect for summer days."
+  },
+  {
+    id: 89,
+    name: "Party Dress 60",
+    price: 5,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0160.jpg"
+    ],
+    isNew: true,
+    isSale: true,
+    description: "Classic and timeless party dress, perfect for cocktail parties."
+  },
+  {
+    id: 90,
+    name: "Casual Outfit 61",
+    price: 45,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0161.jpg"
+    ],
+    isNew: true,
+    isSale: true,
+    description: "Eye-catching design casual outfit, perfect for evening events."
+  },
+  {
+    id: 91,
+    name: "Formal Gown 62",
+    price: 40,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0163.jpg"
+    ],
+    isNew: true,
+    isSale: false,
+    description: "Beautifully crafted formal gown, perfect for formal gatherings."
+  },
+  {
+    id: 92,
+    name: "Designer Dress 63",
+    price: 40,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0164.jpg"
+    ],
+    isNew: true,
+    isSale: true,
+    description: "Elegantly designed designer dress, perfect for casual outings."
+  },
+  {
+    id: 93,
+    name: "Chic Ensemble 64",
+    price: 35,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0165.jpg"
+    ],
+    isNew: true,
+    isSale: false,
+    description: "Trendy and fashionable chic ensemble, perfect for special occasions."
+  },
+  {
+    id: 94,
+    name: "Stylish Outfit 65",
+    price: 40,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0166.jpg"
+    ],
+    isNew: false,
+    isSale: true,
+    description: "Eye-catching design stylish outfit, perfect for special occasions."
+  },
+  {
+    id: 95,
+    name: "Fashionable Gown 66",
+    price: 35,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0167.jpg"
+    ],
+    isNew: true,
+    isSale: false,
+    description: "Perfect for any occasion fashionable gown, perfect for formal gatherings."
+  },
+  {
+    id: 96,
+    name: "Elegant Gown 67",
+    price: 35,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0168.jpg"
+    ],
+    isNew: true,
+    isSale: false,
+    description: "Classic and timeless elegant gown, perfect for casual outings."
+  },
+  {
+    id: 97,
+    name: "Summer Dress 68",
+    price: 35,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0169.jpg"
+    ],
+    isNew: true,
+    isSale: false,
+    description: "Trendy and fashionable summer dress, perfect for party nights."
+  },
+  {
+    id: 98,
+    name: "Evening Dress 69",
+    price: 35,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0170.jpg"
+    ],
+    isNew: true,
+    isSale: true,
+    description: "Trendy and fashionable evening dress, perfect for evening events."
+  },
+  {
+    id: 99,
+    name: "Cocktail Dress 70",
+    price: 40,
+    category: "women",
+    images: [
+      "images/products/women/IMG-20250816-WA0171.jpg"
+    ],
+    isNew: true,
+    isSale: true,
+    description: "Eye-catching design cocktail dress, perfect for casual outings."
+  }
 ];
 
 // DOM Elements
