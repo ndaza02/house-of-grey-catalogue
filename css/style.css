@@ -17,6 +17,7 @@
 /* Base Responsive Typography */
 html {
     font-size: 16px; /* Base font size */
+    -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape */
 }
 
 @media (max-width: 1200px) {
@@ -27,15 +28,17 @@ html {
     html { font-size: 14px; }
     :root {
         --spacing: 1.5rem;
-        --mobile-padding: 0.75rem;
+        --mobile-padding: 1rem;
+        --header-height: 70px;
     }
 }
 
 @media (max-width: 480px) {
-    html { font-size: 13px; }
+    html { font-size: 15px; } /* Slightly larger base font for better readability */
     :root {
         --spacing: 1rem;
-        --mobile-padding: 0.5rem;
+        --mobile-padding: 0.75rem;
+        --header-height: 60px;
     }
 }
 
@@ -89,6 +92,16 @@ img {
     max-width: 100%;
     height: auto;
     display: block;
+    border: 0;
+}
+
+img[loading="lazy"] {
+    transition: opacity 0.3s ease;
+    opacity: 0;
+}
+
+img[loading="lazy"].loaded {
+    opacity: 1;
 }
 
 .container {
@@ -206,15 +219,16 @@ section {
 /* Mobile menu button */
 .menu-toggle {
     display: none;
-    background: none;
-    border: none;
-    padding: 0.5rem;
-    cursor: pointer;
-    z-index: 1001;
-    position: relative;
-    width: 30px;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 32px;
     height: 24px;
-    margin-right: 1rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    margin-right: -0.5rem; /* Compensate for touch target padding */
+    z-index: 1000;
 }
 
 .menu-toggle span {
@@ -266,42 +280,63 @@ body.menu-open {
     height: 100%;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 768px) {
     .menu-toggle {
-        display: block;
+        display: flex;
     }
     
     .nav-links {
         position: fixed;
         top: 0;
-        right: -300px;
-        width: 280px;
+        left: -100%;
+        width: 85%;
+        max-width: 320px;
         height: 100vh;
         background: white;
         flex-direction: column;
-        padding: 6rem 2rem 2rem;
-        box-shadow: -5px 0 15px rgba(0,0,0,0.1);
-        transition: right 0.3s ease;
-        z-index: 1000;
+        align-items: flex-start;
+        padding: 5.5rem 2rem 2rem;
+        box-shadow: 2px 0 15px rgba(0,0,0,0.15);
+        transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        z-index: 900;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
     }
     
     .nav-links.active {
-        right: 0;
+        transform: translateX(100%);
     }
     
     .nav-links a {
-        padding: 1rem 0;
-        border-bottom: 1px solid var(--border-color);
+        margin: 0.4rem 0;
+        padding: 1rem 1rem;
+        font-size: 1.1rem;
         width: 100%;
+        border-radius: 6px;
+        transition: background-color 0.2s ease;
     }
     
-    .nav-links a::after {
+    .nav-links a:active {
+        background-color: rgba(0,0,0,0.05);
+    }
+    
+    /* Add backdrop for menu */
+    .nav-backdrop {
         display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0,0,0,0.5);
+        z-index: 850;
+        opacity: 0;
+        transition: opacity 0.3s ease;
     }
     
-    .nav-icons {
-        margin-left: auto;
-        margin-right: 1rem;
+    .nav-backdrop.active {
+        display: block;
+        opacity: 1;
     }
 }
 
@@ -676,20 +711,20 @@ body.menu-open {
 }
 
 .viewer-content {
-position: relative;
-width: 100%;
-height: 100%;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .product-actions {
-margin-top: 1rem;
-display: flex;
-flex-direction: column;
-gap: 0.5rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
     max-width: 95%;
     max-height: 90vh;
     display: flex;
@@ -1202,14 +1237,14 @@ gap: 0.5rem;
 
 .products-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     gap: 1.5rem;
-    padding: 0 var(--mobile-padding);
+    padding: 1.5rem 0;
 }
 
 @media (max-width: 768px) {
     .products-grid {
-        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(calc(50% - 0.75rem), 1fr));
         gap: 1rem;
     }
 }
