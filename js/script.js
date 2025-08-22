@@ -2,1191 +2,993 @@
 const products = [
   {
     id: 1,
-    name: "Elegant Evening Gown 1",
-    price: 50,
+    name: "Irokai Burgundy Floral Chinese Traditional Gown 1",
+    price: 50.00,
     category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0054.jpg"
-    ],
+    images: ["images/products/women/IMG-20250816-WA0054.jpg"],
     isNew: true,
     isSale: false,
     description: "Stunning evening gown perfect for special occasions."
   },
   {
     id: 2,
-    name: "Elegant Evening Gown 2",
-    price: 35,
+    name: "Elegant Traditional Chinese Dress",
+    price: 35.00,
     category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0055.jpg"
-    ],
+    images: ["images/products/women/IMG-20250816-WA0055.jpg"],
     isNew: true,
     isSale: true,
     description: "Beautiful gown with elegant design."
   },
   {
     id: 3,
-    name: "Summer Floral Dress 1",
-    price: 45,
+    name: "Formal Floral Chinese Outfit 1",
+    price: 45.00,
     category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0056.jpg"
-    ],
+    images: ["images/products/women/IMG-20250816-WA0056.jpg"],
     isNew: true,
     isSale: false,
     description: "Light and airy floral dress for summer."
   },
   {
     id: 4,
-    name: "Summer Floral Dress 2",
-    price: 45,
+    name: "Formal Summer Chinese Outfit 2",
+    price: 45.00,
     category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0057.jpg"
-    ],
+    images: ["images/products/women/IMG-20250816-WA0057.jpg"],
     isNew: true,
     isSale: true,
     description: "Elegant floral dress for any occasion."
   },
   {
     id: 5,
-    name: "Classic Black Dress",
-    price: 35,
+    name: "Classic Modern Chinese White Dress",
+    price: 35.00,
     category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0058.jpg"
-    ],
+    images: ["images/products/women/IMG-20250816-WA0058.jpg"],
     isNew: true,
     isSale: false,
-    description: "Timeless black dress for formal events."
+    description: "Timeless white dress for formal events."
   },
   {
     id: 6,
-    name: "Evening Gown",
-    price: 45,
+    name: "Formal Elegant Chinese Outfit 3",
+    price: 45.00,
     category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0059.jpg"
-    ],
+    images: ["images/products/women/IMG-20250816-WA0059.jpg"],
     isNew: true,
     isSale: false,
     description: "Elegant evening gown for special occasions."
   },
   {
     id: 7,
-    name: "Elegant White Blouse",
-    price: 50,
+    name: "Irokai Burgundy Floral Chinese Traditional Gown 2",
+    price: 50.00,
     category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0060.jpg"
-    ],
+    images: ["images/products/women/IMG-20250816-WA0060.jpg"],
     isNew: true,
     isSale: true,
-    description: "Chic white blouse for a sophisticated look."
+    description: "Beautiful burgundy floral traditional gown."
   },
   {
     id: 8,
-    name: "Stylish Top",
-    price: 50,
+    name: "Teen Stylish Plain Black Irokai Traditional Gown",
+    price: 50.00,
     category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0061.jpg"
-    ],
+    images: ["images/products/women/IMG-20250816-WA0061.jpg"],
     isNew: true,
     isSale: false,
-    description: "Trendy top for any casual occasion."
+    description: "Elegant black traditional gown for teens."
   },
   {
     id: 9,
-    name: "Casual Summer Outfit 1",
-    price: 50,
+    name: "Ladies Stylish Plain Black Irokai Traditional Gown",
+    price: 50.00,
     category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0062.jpg"
-    ],
+    images: ["images/products/women/IMG-20250816-WA0062.jpg"],
     isNew: true,
     isSale: true,
-    description: "Comfortable and stylish summer outfit."
+    description: "Classic black traditional gown for ladies."
   },
   {
     id: 10,
-    name: "Casual Summer Outfit 2",
-    price: 50,
-    category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0063.jpg"
-    ],
+    name: "Babies Pink Chinese Traditional Hanfu Two piece Set",
+    price: 50.00,
+    category: "kids",
+    images: ["images/products/women/IMG-20250816-WA0063.jpg"],
     isNew: true,
     isSale: false,
-    description: "Perfect summer outfit for any occasion."
+    description: "Adorable pink hanfu set for babies."
   },
   {
     id: 11,
-    name: "Elegant Dress 1",
-    price: 50,
-    category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0064.jpg"
-    ],
+    name: "Babies Pink Chinese Traditional Hanfu Two piece Set",
+    price: 50.00,
+    category: "kids",
+    images: ["images/products/women/IMG-20250816-WA0064.jpg"],
     isNew: true,
     isSale: false,
-    description: "Elegant dress for special events."
+    description: "Charming pink hanfu set for little ones."
   },
   {
     id: 12,
-    name: "Elegant Dress 2",
-    price: 35,
+    name: "Modern Elegant Chinese Dress",
+    price: 35.00,
     category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0065.jpg"
-    ],
+    images: ["images/products/women/IMG-20250816-WA0065.jpg"],
     isNew: true,
     isSale: true,
-    description: "Beautiful dress for any formal occasion."
+    description: "Elegant modern Chinese dress for special occasions."
   },
   {
     id: 13,
-    name: "Stylish Outfit 1",
-    price: 55,
+    name: "New Stylish Chinese Casual Dress 1",
+    price: 55.00,
     category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0066.jpg"
-    ],
+    images: ["images/products/women/IMG-20250816-WA0066.jpg"],
     isNew: true,
     isSale: false,
-    description: "Trendy outfit for a fashionable look."
+    description: "Stylish casual dress with modern Chinese design."
   },
   {
     id: 14,
-    name: "Stylish Outfit 2",
-    price: 55,
+    name: "New Stylish Chinese Casual Dress 2",
+    price: 55.00,
     category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0067.jpg"
-    ],
+    images: ["images/products/women/IMG-20250816-WA0067.jpg"],
     isNew: true,
     isSale: true,
-    description: "Chic outfit for any occasion."
+    description: "Chic Chinese casual dress for any occasion."
   },
   {
     id: 15,
-    name: "Casual Dress 1",
-    price: 55,
+    name: "New Stylish Chinese Casual Dress 3",
+    price: 55.00,
     category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0068.jpg"
-    ],
+    images: ["images/products/women/IMG-20250816-WA0068.jpg"],
     isNew: true,
     isSale: false,
-    description: "Comfortable dress for everyday wear."
+    description: "Comfortable and stylish Chinese casual dress."
   },
   {
     id: 16,
-    name: "Casual Dress 2",
+    name: "Men Irokai Chinese Traditional Gown",
     price: 50,
-    category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0069.jpg"
-    ],
+    category: "men",
+    images: ["images/products/women/IMG-20250816-WA0069.jpg"],
     isNew: true,
     isSale: true,
-    description: "Stylish dress for casual outings."
+    description: "Elegant traditional Chinese gown for men with Irokai design."
   },
   {
     id: 17,
-    name: "Summer Dress 1",
+    name: "Ladies Stylish Elegant Irokai Floral White Chinese Traditional Gown 1",
     price: 50,
     category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0070.jpg"
-    ],
+    images: ["images/products/women/IMG-20250816-WA0070.jpg"],
     isNew: true,
     isSale: false,
-    description: "Light and comfortable summer dress."
+    description: "Elegant white traditional Chinese gown with floral patterns."
   },
   {
     id: 18,
-    name: "Summer Dress 2",
+    name: "Ladies Stylish Elegant Irokai Floral Purple Chinese Traditional Gown 2",
     price: 50,
     category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0071.jpg"
-    ],
+    images: ["images/products/women/IMG-20250816-WA0071.jpg"],
     isNew: true,
     isSale: true,
-    description: "Elegant summer dress for any occasion."
+    description: "Beautiful purple traditional Chinese gown with floral embroidery."
   },
   {
     id: 19,
-    name: "Formal Dress 1",
+    name: "Ladies Stylish Elegant Irokai Floral Blue Chinese Traditional Gown 3",
     price: 50,
     category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0072.jpg"
-    ],
+    images: ["images/products/women/IMG-20250816-WA0072.jpg"],
     isNew: true,
     isSale: false,
-    description: "Sophisticated dress for formal events."
+    description: "Stunning blue traditional Chinese gown with elegant floral patterns."
   },
   {
     id: 20,
-    name: "Formal Dress 2",
+    name: "Formal Chinese Traditional Outfit 4",
     price: 45,
     category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0073.jpg"
-    ],
+    images: ["images/products/women/IMG-20250816-WA0073.jpg"],
     isNew: true,
     isSale: true,
-    description: "Elegant dress for special occasions."
+    description: "Elegant traditional Chinese outfit for formal events."
   },
   {
     id: 21,
-    name: "Evening Gown 1",
+    name: "Formal Chinese Traditional Two piece Set 1",
     price: 45,
     category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0074.jpg"
-    ],
+    images: ["images/products/women/IMG-20250816-WA0074.jpg"],
     isNew: true,
     isSale: false,
-    description: "Stunning evening gown for gala events."
+    description: "Beautiful two-piece traditional Chinese formal set."
   },
   {
     id: 22,
-    name: "Evening Gown 2",
+    name: "New Stylish Chinese Casual Dress 4",
     price: 55,
     category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0075.jpg"
-    ],
+    images: ["images/products/women/IMG-20250816-WA0075.jpg"],
     isNew: true,
     isSale: true,
-    description: "Glamorous gown for special nights."
+    description: "Stylish and comfortable Chinese casual dress."
   },
   {
     id: 23,
-    name: "Designer Dress 1",
+    name: "Designer Chinese Dress 1",
     price: 55,
     category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0076.jpg"
-    ],
+    images: ["images/products/women/IMG-20250816-WA0076.jpg"],
     isNew: true,
     isSale: false,
-    description: "Exclusive designer dress for fashionistas."
+    description: "Elegant designer Chinese dress with modern flair."
   },
   {
     id: 24,
-    name: "Designer Dress 2",
+    name: "New Stylish Chinese Casual Dress 5",
     price: 55,
     category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0077.jpg"
-    ],
+    images: ["images/products/women/IMG-20250816-WA0077.jpg"],
     isNew: true,
     isSale: true,
-    description: "Chic designer dress for the modern woman."
+    description: "Chic and trendy Chinese casual dress."
   },
   {
     id: 25,
-    name: "Luxury Gown 1",
+    name: "Luxury Traditional Chinese Skirt 1",
     price: 55,
     category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0078.jpg"
-    ],
+    images: ["images/products/women/IMG-20250816-WA0078.jpg"],
     isNew: true,
     isSale: false,
-    description: "Luxurious gown for the most special occasions."
+    description: "Elegant traditional Chinese skirt with luxurious details."
   },
   {
     id: 26,
-    name: "Luxury Gown 2",
+    name: "Luxury Traditional Chinese Skirt 2",
     price: 55,
     category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0079.jpg"
-    ],
+    images: ["images/products/women/IMG-20250816-WA0079.jpg"],
     isNew: true,
     isSale: true,
-    description: "Elegant luxury gown for unforgettable events."
+    description: "Beautiful traditional Chinese skirt with intricate patterns."
   },
   {
     id: 27,
-    name: "Premium Dress 1",
+    name: "Luxury Traditional Chinese Skirt 3",
     price: 55,
     category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0080.jpg"
-    ],
+    images: ["images/products/women/IMG-20250816-WA0080.jpg"],
     isNew: true,
     isSale: false,
-    description: "High-end dress for the fashion-forward woman."
+    description: "Exquisite traditional Chinese skirt for special occasions."
   },
   {
     id: 28,
-    name: "Premium Dress 2",
+    name: "Premium Irokai Dress",
     price: 50,
     category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0081.jpg"
-    ],
+    images: ["images/products/women/IMG-20250816-WA0081.jpg"],
     isNew: true,
     isSale: true,
-    description: "Stylish premium dress for any occasion."
+    description: "Elegant Irokai dress with premium fabric and design."
   },
   {
     id: 29,
-    name: "Exclusive Gown",
+    name: "Exclusive Chinese Two piece Outfit",
     price: 45,
     category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0082.jpg"
-    ],
+    images: ["images/products/women/IMG-20250816-WA0082.jpg"],
     isNew: true,
     isSale: false,
-    description: "Exclusive designer gown for the most discerning customers."
+    description: "Stylish two-piece Chinese outfit for special occasions."
   },
   {
     id: 30,
-    name: "Casual Outfit 1",
-    price: 35,
+    name: "New Chinese Style Dress 4",
+    price: 50,
     category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0083.jpg"
-    ],
+    images: ["images/products/women/IMG-20250816-WA0083.jpg"],
     isNew: true,
     isSale: true,
-    description: "Trendy and fashionable casual outfit, perfect for cocktail parties."
+    description: "Elegant Chinese style dress with modern design."
   },
   {
     id: 31,
-    name: "Formal Gown 2",
+    name: "Modern Chinese Style Casual Dress 1",
     price: 35,
     category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0084.jpg"
-    ],
+    images: ["images/products/women/IMG-20250816-WA0084.jpg"],
     isNew: true,
     isSale: true,
-    description: "Classic and timeless formal gown, perfect for casual outings."
+    description: "Casual Chinese style dress for everyday wear."
   },
   {
     id: 32,
-    name: "Designer Dress 3",
+    name: "Modern Chinese Style Casual Dress 2",
     price: 35,
     category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0085.jpg"
-    ],
+    images: ["images/products/women/IMG-20250816-WA0085.jpg"],
     isNew: true,
     isSale: false,
-    description: "Handmade with care designer dress, perfect for wedding events."
+    description: "Stylish modern Chinese casual dress."
   },
   {
     id: 33,
-    name: "Chic Ensemble 4",
+    name: "Modern Chinese Style Casual Dress 3",
     price: 35,
     category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0086.jpg"
-    ],
+    images: ["images/products/women/IMG-20250816-WA0086.jpg"],
     isNew: true,
     isSale: false,
-    description: "Classic and timeless chic ensemble, perfect for summer days."
+    description: "Comfortable Chinese style casual dress."
   },
   {
     id: 34,
-    name: "Stylish Outfit 5",
+    name: "New Chinese Style Dress 5",
     price: 50,
     category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0087.jpg"
-    ],
+    images: ["images/products/women/IMG-20250816-WA0087.jpg"],
     isNew: true,
     isSale: false,
-    description: "Handmade with care stylish outfit, perfect for casual outings."
+    description: "Elegant new Chinese style dress."
   },
   {
     id: 35,
-    name: "Fashionable Gown 6",
-    price: 55,
+    name: "New Chinese Style Dress 6",
+    price: 50,
     category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0088.jpg"
-    ],
+    images: ["images/products/women/IMG-20250816-WA0088.jpg"],
     isNew: true,
     isSale: false,
-    description: "Perfect for any occasion fashionable gown, perfect for party nights."
+    description: "Elegant Chinese style dress for special occasions."
   },
   {
     id: 36,
-    name: "Elegant Gown 7",
+    name: "New Stylish Chinese Casual Dress 6",
     price: 50,
     category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0090.jpg"
-    ],
+    images: ["images/products/women/IMG-20250816-WA0090.jpg"],
     isNew: true,
     isSale: false,
-    description: "Handmade with care elegant gown, perfect for party nights."
+    description: "Stylish Chinese casual dress for everyday wear."
   },
   {
     id: 37,
-    name: "Summer Dress 8",
+    name: "New Stylish Chinese Casual Dress 7",
     price: 50,
     category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0092.jpg"
-    ],
+    images: ["images/products/women/IMG-20250816-WA0092.jpg"],
     isNew: true,
     isSale: true,
-    description: "Elegantly designed summer dress, perfect for evening events."
+    description: "Elegant Chinese casual dress with modern design."
   },
   {
     id: 38,
-    name: "Evening Dress 9",
+    name: "New Chinese Style Dress 7",
     price: 35,
     category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0093.jpg"
-    ],
+    images: ["images/products/women/IMG-20250816-WA0093.jpg"],
     isNew: true,
     isSale: false,
-    description: "Elegantly designed evening dress, perfect for formal gatherings."
+    description: "Beautiful Chinese style dress for any occasion."
   },
   {
     id: 39,
-    name: "Cocktail Dress 10",
+    name: "New Chinese Style Dress 8",
     price: 35,
     category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0094.jpg"
-    ],
+    images: ["images/products/women/IMG-20250816-WA0094.jpg"],
     isNew: false,
     isSale: true,
-    description: "Eye-catching design cocktail dress, perfect for evening events."
+    description: "Stylish Chinese dress with elegant design."
   },
   {
     id: 40,
-    name: "Maxi Dress 11",
-    price: 35,
+    name: "New Chinese Style Elegant Maxi Dress",
+    price: 50,
     category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0095.jpg"
-    ],
+    images: ["images/products/women/IMG-20250816-WA0095.jpg"],
     isNew: true,
     isSale: false,
-    description: "Eye-catching design maxi dress, perfect for formal gatherings."
+    description: "Elegant Chinese style maxi dress for special occasions."
   },
   {
     id: 41,
-    name: "Party Dress 12",
+    name: "New Chinese Style Elegant Maxi Dress 1",
     price: 47.15,
     category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0096.jpg"
-    ],
+    images: ["images/products/women/IMG-20250816-WA0096.jpg"],
     isNew: true,
     isSale: false,
-    description: "Luxurious and comfortable party dress, perfect for cocktail parties."
+    description: "Beautiful Chinese style maxi dress with elegant design."
   },
   {
     id: 42,
-    name: "Casual Outfit 13",
+    name: "New Chinese Style Elegant Maxi Dress 2",
     price: 50,
     category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0097.jpg"
-    ],
+    images: ["images/products/women/IMG-20250816-WA0097.jpg"],
     isNew: false,
     isSale: false,
-    description: "Eye-catching design casual outfit, perfect for wedding events."
+    description: "Elegant maxi dress with Chinese style details."
   },
   {
     id: 43,
-    name: "Formal Gown 14",
+    name: "New Chinese Style Floral Maxi Dress 2",
     price: 40,
     category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0098.jpg"
-    ],
+    images: ["images/products/women/IMG-20250816-WA0098.jpg"],
     isNew: false,
     isSale: true,
-    description: "Perfect for any occasion formal gown, perfect for formal gatherings."
+    description: "Floral Chinese style maxi dress for any occasion."
   },
   {
     id: 44,
-    name: "Designer Dress 15",
+    name: "New Chinese Style Elegant Maxi Dress 3",
     price: 40,
     category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0099.jpg"
-    ],
+    images: ["images/products/women/IMG-20250816-WA0099.jpg"],
     isNew: true,
     isSale: false,
-    description: "Handmade with care designer dress, perfect for wedding events."
+    description: "Elegant Chinese style maxi dress with beautiful design."
   },
   {
     id: 45,
-    name: "Chic Ensemble 16",
+    name: "New Chinese Style Floral Maxi Dress 3",
     price: 50,
     category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0101.jpg"
-    ],
+    images: ["images/products/women/IMG-20250816-WA0101.jpg"],
     isNew: true,
     isSale: false,
-    description: "Eye-catching design chic ensemble, perfect for special occasions."
+    description: "Elegant floral Chinese style maxi dress for special occasions."
   },
   {
     id: 46,
-    name: "Stylish Outfit 17",
+    name: "Irokai Light Burgundy Floral Chinese Traditional Gown 4",
     price: 50,
     category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0103.jpg"
-    ],
+    images: ["images/products/women/IMG-20250816-WA0103.jpg"],
     isNew: false,
     isSale: false,
-    description: "Classic and timeless stylish outfit, perfect for cocktail parties."
+    description: "Beautiful light burgundy floral traditional Chinese gown."
   },
   {
     id: 47,
-    name: "Fashionable Gown 18",
+    name: "Irokai Pink Floral Chinese Traditional Gown 5",
     price: 50,
     category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0105.jpg"
-    ],
+    images: ["images/products/women/IMG-20250816-WA0105.jpg"],
     isNew: true,
     isSale: false,
-    description: "Handmade with care fashionable gown, perfect for wedding events."
+    description: "Elegant pink floral traditional Chinese gown."
   },
   {
     id: 48,
-    name: "Elegant Gown 19",
+    name: "Irokai Blue Floral Chinese Traditional Gown 1",
     price: 50,
     category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0107.jpg"
-    ],
+    images: ["images/products/women/IMG-20250816-WA0107.jpg"],
     isNew: false,
     isSale: false,
-    description: "Elegantly designed elegant gown, perfect for evening events."
+    description: "Stunning blue floral traditional Chinese gown."
   },
   {
     id: 49,
-    name: "Summer Dress 20",
+    name: "Irokai Yellow & Blue Floral Chinese Traditional Gown 1",
     price: 50,
     category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0109.jpg"
-    ],
+    images: ["images/products/women/IMG-20250816-WA0109.jpg"],
     isNew: true,
     isSale: false,
-    description: "Luxurious and comfortable summer dress, perfect for cocktail parties."
+    description: "Beautiful yellow and blue floral traditional Chinese gown."
   },
   {
     id: 50,
-    name: "Evening Dress 21",
+    name: "Ladies Stylish Elegant Irokai Floral Red Chinese Traditional Gown 1",
     price: 50,
     category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0111.jpg"
-    ],
+    images: ["images/products/women/IMG-20250816-WA0111.jpg"],
     isNew: true,
     isSale: false,
-    description: "Elegantly designed evening dress, perfect for formal gatherings."
+    description: "Elegant red floral traditional Chinese gown with Irokai design."
   },
   {
     id: 51,
-    name: "Cocktail Dress 22",
+    name: "Ladies Stylish Elegant Irokai Floral Purple Chinese Traditional Gown 2",
     price: 50,
     category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0113.jpg"
-    ],
+    images: ["images/products/women/IMG-20250816-WA0113.jpg"],
     isNew: true,
     isSale: false,
-    description: "Stylish and comfortable cocktail dress, perfect for wedding events."
+    description: "Beautiful purple floral traditional Chinese gown with Irokai design."
   },
   {
     id: 52,
-    name: "Maxi Dress 23",
+    name: "Ladies Stylish Elegant Irokai Floral Blue Chinese Traditional Gown 3",
     price: 50,
     category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0115.jpg"
-    ],
+    images: ["images/products/women/IMG-20250816-WA0115.jpg"],
     isNew: true,
     isSale: false,
-    description: "Classic and timeless maxi dress, perfect for summer days."
+    description: "Stunning blue floral traditional Chinese gown with Irokai design."
   },
   {
     id: 53,
-    name: "Party Dress 24",
+    name: "Ladies Stylish Elegant Irokai Floral Black Chinese Traditional Gown 5",
     price: 50,
     category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0117.jpg"
-    ],
+    images: ["images/products/women/IMG-20250816-WA0117.jpg"],
     isNew: true,
     isSale: false,
-    description: "Handmade with care party dress, perfect for casual outings."
+    description: "Elegant black floral traditional Chinese gown with Irokai design."
   },
   {
     id: 54,
-    name: "Casual Outfit 25",
+    name: "Premium Irokai Floral Dress 1",
     price: 50,
     category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0119.jpg"
-    ],
+    images: ["images/products/women/IMG-20250816-WA0119.jpg"],
     isNew: false,
     isSale: false,
-    description: "Elegantly designed casual outfit, perfect for casual outings."
+    description: "Premium Irokai floral dress with elegant design."
   },
   {
     id: 55,
-    name: "Formal Gown 26",
+    name: "Premium Irokai Satin Floral Dress 1",
     price: 50,
     category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0121.jpg"
-    ],
+    images: ["images/products/women/IMG-20250816-WA0121.jpg"],
     isNew: false,
     isSale: false,
-    description: "Stylish and comfortable formal gown, perfect for casual outings."
+    description: "Elegant Irokai satin floral dress with premium design."
   },
   {
     id: 56,
-    name: "Designer Dress 27",
+    name: "Premium Irokai Satin Floral Dress 2",
     price: 50,
     category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0123.jpg"
-    ],
+    images: ["images/products/women/IMG-20250816-WA0123.jpg"],
     isNew: false,
     isSale: false,
-    description: "Luxurious and comfortable designer dress, perfect for party nights."
+    description: "Beautiful Irokai satin floral dress with elegant patterns."
   },
   {
     id: 57,
-    name: "Chic Ensemble 28",
+    name: "Premium Irokai Satin Floral Dress 3",
     price: 50,
     category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0125.jpg"
-    ],
+    images: ["images/products/women/IMG-20250816-WA0125.jpg"],
     isNew: true,
     isSale: false,
-    description: "Elegantly designed chic ensemble, perfect for cocktail parties."
+    description: "Stunning Irokai satin floral dress for special occasions."
   },
   {
     id: 58,
-    name: "Stylish Outfit 29",
+    name: "Premium Irokai Satin Floral Dress 5",
     price: 50,
     category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0127.jpg"
-    ],
+    images: ["images/products/women/IMG-20250816-WA0127.jpg"],
     isNew: true,
     isSale: false,
-    description: "Elegantly designed stylish outfit, perfect for casual outings."
+    description: "Elegant Irokai satin floral dress with beautiful design."
   },
   {
     id: 59,
-    name: "Fashionable Gown 30",
+    name: "Men Fashionable Chinese Shirt 1",
     price: 40,
-    category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0130.jpg"
-    ],
+    category: "men",
+    images: ["images/products/women/IMG-20250816-WA0130.jpg"],
     isNew: false,
     isSale: true,
-    description: "Stylish and comfortable fashionable gown, perfect for wedding events."
+    description: "Stylish and fashionable Chinese shirt for men."
   },
   {
     id: 60,
-    name: "Elegant Gown 31",
+    name: "Men Fashionable Chinese Shirt 2",
     price: 55,
-    category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0131.jpg"
-    ],
+    category: "men",
+    images: ["images/products/women/IMG-20250816-WA0131.jpg"],
     isNew: true,
     isSale: true,
-    description: "Handmade with care elegant gown, perfect for special occasions."
+    description: "Stylish and comfortable Chinese shirt for men."
   },
   {
     id: 61,
-    name: "Summer Dress 32",
+    name: "Young Boys Fashionable Chinese Outfit 1",
     price: 50,
-    category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0132.jpg"
-    ],
+    category: "kids",
+    images: ["images/products/women/IMG-20250816-WA0132.jpg"],
     isNew: false,
     isSale: false,
-    description: "Luxurious and comfortable summer dress, perfect for formal gatherings."
+    description: "Fashionable Chinese outfit for young boys."
   },
   {
     id: 62,
-    name: "Evening Dress 33",
+    name: "Young Boys Fashionable Chinese Outfit 2",
     price: 35,
-    category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0133.jpg"
-    ],
+    category: "kids",
+    images: ["images/products/women/IMG-20250816-WA0133.jpg"],
     isNew: true,
     isSale: false,
-    description: "Elegantly designed evening dress, perfect for special occasions."
+    description: "Stylish Chinese outfit for young boys."
   },
   {
     id: 63,
-    name: "Cocktail Dress 34",
+    name: "Young Girls Traditional Chinese Dress 1",
     price: 35,
-    category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0134.jpg"
-    ],
+    category: "kids",
+    images: ["images/products/women/IMG-20250816-WA0134.jpg"],
     isNew: true,
     isSale: false,
-    description: "Trendy and fashionable cocktail dress, perfect for special occasions."
+    description: "Beautiful traditional Chinese dress for young girls."
   },
   {
     id: 64,
-    name: "Maxi Dress 35",
+    name: "Young Girls Traditional Chinese Dress 2",
     price: 35,
-    category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0135.jpg"
-    ],
+    category: "kids",
+    images: ["images/products/women/IMG-20250816-WA0135.jpg"],
     isNew: true,
     isSale: true,
-    description: "Stylish and comfortable maxi dress, perfect for cocktail parties."
+    description: "Elegant traditional Chinese dress for young girls."
   },
   {
     id: 65,
-    name: "Party Dress 36",
+    name: "Young Girls Traditional Chinese Dress 3",
     price: 35,
-    category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0136.jpg"
-    ],
-    isNew: false,
-    isSale: true,
-    description: "Stylish and comfortable party dress, perfect for cocktail parties."
+    category: "kids",
+    images: ["images/products/women/IMG-20250816-WA0136.jpg"],
+    isNew: true,
+    isSale: false,
+    description: "Beautiful traditional Chinese dress for young girls."
   },
   {
     id: 66,
-    name: "Casual Outfit 37",
+    name: "Young Girls Traditional Chinese Dress 4",
     price: 35,
-    category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0137.jpg"
-    ],
+    category: "kids",
+    images: ["images/products/women/IMG-20250816-WA0137.jpg"],
     isNew: true,
     isSale: false,
-    description: "Handmade with care casual outfit, perfect for summer days."
+    description: "Beautiful traditional Chinese dress for young girls."
   },
   {
     id: 67,
-    name: "Formal Gown 38",
+    name: "Luxury Young Girls Traditional Chinese Dress 1",
     price: 40,
-    category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0138.jpg"
-    ],
+    category: "kids",
+    images: ["images/products/women/IMG-20250816-WA0138.jpg"],
     isNew: true,
     isSale: true,
-    description: "Luxurious and comfortable formal gown, perfect for party nights."
+    description: "Luxury traditional Chinese dress for young girls."
   },
   {
     id: 68,
-    name: "Designer Dress 39",
+    name: "Luxury Young Girls Traditional Chinese Dress 2",
     price: 40,
-    category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0139.jpg"
-    ],
+    category: "kids",
+    images: ["images/products/women/IMG-20250816-WA0139.jpg"],
     isNew: true,
     isSale: true,
-    description: "Stylish and comfortable designer dress, perfect for wedding events."
+    description: "Elegant luxury Chinese dress for young girls."
   },
   {
     id: 69,
-    name: "Chic Ensemble 40",
+    name: "Luxury Teen Fashionable Chinese Outfit 1",
     price: 40,
-    category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0140.jpg"
-    ],
+    category: "kids",
+    images: ["images/products/women/IMG-20250816-WA0140.jpg"],
     isNew: true,
     isSale: false,
-    description: "Classic and timeless chic ensemble, perfect for formal gatherings."
+    description: "Fashionable Chinese outfit for teens."
   },
   {
     id: 70,
-    name: "Stylish Outfit 41",
+    name: "Luxury Teen Fashionable Chinese Outfit 2",
     price: 40,
-    category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0141.jpg"
-    ],
+    category: "kids",
+    images: ["images/products/women/IMG-20250816-WA0141.jpg"],
     isNew: true,
     isSale: false,
-    description: "Trendy and fashionable stylish outfit, perfect for special occasions."
+    description: "Fashionable Chinese outfit for teens."
   },
   {
     id: 71,
-    name: "Fashionable Gown 42",
+    name: "Young Girls Fashionable Chinese Outfit 1",
     price: 45,
-    category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0142.jpg"
-    ],
+    category: "kids",
+    images: ["images/products/women/IMG-20250816-WA0142.jpg"],
     isNew: false,
     isSale: false,
-    description: "Elegantly designed fashionable gown, perfect for formal gatherings."
+    description: "Fashionable Chinese outfit for young girls."
   },
   {
     id: 72,
-    name: "Elegant Gown 43",
+    name: "Luxury Teen Fashionable Chinese Outfit 3",
     price: 40,
-    category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0143.jpg"
-    ],
+    category: "kids",
+    images: ["images/products/women/IMG-20250816-WA0143.jpg"],
     isNew: false,
     isSale: false,
-    description: "Elegantly designed elegant gown, perfect for cocktail parties."
+    description: "Luxury Chinese outfit for teens."
   },
   {
     id: 73,
-    name: "Summer Dress 44",
+    name: "Luxury Teen Fashionable Chinese Outfit 4",
     price: 45,
-    category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0144.jpg"
-    ],
+    category: "kids",
+    images: ["images/products/women/IMG-20250816-WA0144.jpg"],
     isNew: true,
     isSale: false,
-    description: "Stylish and comfortable summer dress, perfect for special occasions."
+    description: "Elegant Chinese outfit for teens."
   },
   {
     id: 74,
-    name: "Evening Dress 45",
+    name: "Chinese Style Elegant Shoes 1",
     price: 40,
-    category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0145.jpg"
-    ],
+    category: "accessories",
+    images: ["images/products/women/IMG-20250816-WA0145.jpg"],
     isNew: true,
     isSale: false,
-    description: "Stylish and comfortable evening dress, perfect for party nights."
+    description: "Elegant Chinese style shoes for special occasions."
   },
   {
     id: 75,
-    name: "Cocktail Dress 46",
-    price: 35,
-    category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0146.jpg"
-    ],
+    name: "Chinese Style Elegant Shoes 2",
+    price: 45,
+    category: "accessories",
+    images: ["images/products/women/IMG-20250816-WA0146.jpg"],
     isNew: true,
     isSale: false,
-    description: "Trendy and fashionable cocktail dress, perfect for formal gatherings."
+    description: "Elegant Chinese style shoes for special occasions."
   },
   {
     id: 76,
-    name: "Maxi Dress 47",
+    name: "Chinese Style Elegant Heels",
     price: 45,
-    category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0147.jpg"
-    ],
+    category: "accessories",
+    images: ["images/products/women/IMG-20250816-WA0147.jpg"],
     isNew: false,
     isSale: true,
-    description: "Eye-catching design maxi dress, perfect for casual outings."
+    description: "Stylish Chinese style heels for formal occasions."
   },
   {
     id: 77,
-    name: "Party Dress 48",
+    name: "Beige Exquisite Fabric Rose Floral Handbag 1",
     price: 35,
-    category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0148.jpg"
-    ],
+    category: "accessories",
+    images: ["images/products/women/IMG-20250816-WA0148.jpg"],
     isNew: true,
     isSale: false,
-    description: "Perfect for any occasion party dress, perfect for cocktail parties."
+    description: "Elegant beige rose floral handbag."
   },
   {
     id: 78,
-    name: "Casual Outfit 49",
+    name: "Silver Exquisite Fabric Rose Floral Handbag 2",
     price: 35,
-    category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0149.jpg"
-    ],
+    category: "accessories",
+    images: ["images/products/women/IMG-20250816-WA0149.jpg"],
     isNew: false,
     isSale: true,
-    description: "Elegantly designed casual outfit, perfect for wedding events."
+    description: "Stylish silver rose floral handbag."
   },
   {
     id: 79,
-    name: "Formal Gown 50",
+    name: "Red Exquisite Fabric Rose Floral Handbag 1",
     price: 35,
-    category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0150.jpg"
-    ],
+    category: "accessories",
+    images: ["images/products/women/IMG-20250816-WA0150.jpg"],
     isNew: true,
     isSale: false,
-    description: "Perfect for any occasion formal gown, perfect for casual outings."
+    description: "Beautiful red rose floral handbag."
   },
   {
     id: 80,
-    name: "Designer Dress 51",
+    name: "Red Exquisite Fabric Rose Floral Handbag 2",
     price: 35,
-    category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0151.jpg"
-    ],
+    category: "accessories",
+    images: ["images/products/women/IMG-20250816-WA0151.jpg"],
     isNew: true,
     isSale: true,
-    description: "Luxurious and comfortable designer dress, perfect for casual outings."
+    description: "Elegant red rose floral handbag with matching design."
   },
   {
     id: 81,
-    name: "Chic Ensemble 52",
+    name: "Lady Black Flower Clutch with Pearl Diamonds 1",
     price: 25,
-    category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0152.jpg"
-    ],
+    category: "accessories",
+    images: ["images/products/women/IMG-20250816-WA0152.jpg"],
     isNew: false,
     isSale: false,
-    description: "Handmade with care chic ensemble, perfect for summer days."
+    description: "Elegant black flower clutch with pearl diamond accents."
   },
   {
     id: 82,
-    name: "Stylish Outfit 53",
+    name: "Lady Pink Flower Clutch with Pearl Diamonds 2",
     price: 25,
-    category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0153.jpg"
-    ],
+    category: "accessories",
+    images: ["images/products/women/IMG-20250816-WA0153.jpg"],
     isNew: true,
     isSale: false,
-    description: "Luxurious and comfortable stylish outfit, perfect for wedding events."
+    description: "Beautiful pink flower clutch with pearl diamond details."
   },
   {
     id: 83,
-    name: "Fashionable Gown 54",
+    name: "Versatile Fashion Women White Floral Clutch Bag 1",
     price: 35,
-    category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0154.jpg"
-    ],
+    category: "accessories",
+    images: ["images/products/women/IMG-20250816-WA0154.jpg"],
     isNew: false,
     isSale: false,
-    description: "Perfect for any occasion fashionable gown, perfect for party nights."
+    description: "Versatile white floral clutch bag for various occasions."
   },
   {
     id: 84,
-    name: "Elegant Gown 55",
+    name: "Versatile Fashion Women Apricot Floral Clutch Bag 2",
     price: 35,
-    category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0155.jpg"
-    ],
+    category: "accessories",
+    images: ["images/products/women/IMG-20250816-WA0155.jpg"],
     isNew: false,
     isSale: false,
-    description: "Handmade with care elegant gown, perfect for cocktail parties."
+    description: "Elegant apricot floral clutch bag with versatile design."
   },
   {
     id: 85,
-    name: "Summer Dress 56",
-    price: 15,
-    category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0156.jpg"
-    ],
+    name: "Versatile Fashion Women Pink Floral Clutch Bag 3",
+    price: 35,
+    category: "accessories",
+    images: ["images/products/women/IMG-20250816-WA0156.jpg"],
     isNew: true,
     isSale: true,
-    description: "Trendy and fashionable summer dress, perfect for casual outings."
+    description: "Chic pink floral clutch bag for various occasions."
   },
   {
     id: 86,
-    name: "Evening Dress 57",
+    name: "1pc Chinese Handheld Fan Black Red",
     price: 5,
-    category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0157.jpg"
-    ],
+    category: "accessories",
+    images: ["images/products/women/IMG-20250816-WA0157.jpg"],
     isNew: true,
     isSale: false,
-    description: "Beautifully crafted evening dress, perfect for party nights."
+    description: "Elegant black and red Chinese handheld fan."
   },
   {
     id: 87,
-    name: "Cocktail Dress 58",
+    name: "1pc Large Packed Fan 1",
     price: 5,
-    category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0158.jpg"
-    ],
+    category: "accessories",
+    images: ["images/products/women/IMG-20250816-WA0158.jpg"],
     isNew: false,
     isSale: false,
-    description: "Perfect for any occasion cocktail dress, perfect for formal gatherings."
+    description: "Traditional Chinese large packed fan with beautiful design."
   },
   {
     id: 88,
-    name: "Maxi Dress 59",
+    name: "1pc Large Packed Fan 2",
     price: 5,
-    category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0159.jpg"
-    ],
+    category: "accessories",
+    images: ["images/products/women/IMG-20250816-WA0159.jpg"],
     isNew: true,
     isSale: false,
-    description: "Eye-catching design maxi dress, perfect for summer days."
+    description: "Elegant large packed fan with traditional Chinese patterns."
   },
   {
     id: 89,
-    name: "Party Dress 60",
+    name: "Chinese Style Rose Tassel Hair Stick",
     price: 5,
-    category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0160.jpg"
-    ],
+    category: "accessories",
+    images: ["images/products/women/IMG-20250816-WA0160.jpg"],
     isNew: true,
     isSale: true,
-    description: "Classic and timeless party dress, perfect for cocktail parties."
+    description: "Beautiful Chinese style hair stick with rose tassel."
   },
   {
     id: 90,
-    name: "Casual Outfit 61",
+    name: "Formal Summer Chinese Outfit 5",
     price: 45,
     category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0161.jpg"
-    ],
+    images: ["images/products/women/IMG-20250816-WA0161.jpg"],
     isNew: true,
     isSale: true,
-    description: "Eye-catching design casual outfit, perfect for evening events."
+    description: "Elegant Chinese formal summer outfit for special occasions."
   },
   {
     id: 91,
-    name: "Formal Gown 62",
+    name: "New Chinese Style Elegant Maxi Dress 4",
     price: 40,
     category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0163.jpg"
-    ],
+    images: ["images/products/women/IMG-20250816-WA0163.jpg"],
     isNew: true,
     isSale: false,
-    description: "Beautifully crafted formal gown, perfect for formal gatherings."
+    description: "Beautiful Chinese style maxi dress with elegant design."
   },
   {
     id: 92,
-    name: "Designer Dress 63",
+    name: "New Stylish Chinese Casual Dress 8",
     price: 40,
     category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0164.jpg"
-    ],
+    images: ["images/products/women/IMG-20250816-WA0164.jpg"],
     isNew: true,
     isSale: true,
-    description: "Elegantly designed designer dress, perfect for casual outings."
+    description: "Stylish Chinese casual dress for everyday wear."
   },
   {
     id: 93,
-    name: "Chic Ensemble 64",
+    name: "New Stylish Chinese Casual Dress 9",
     price: 35,
     category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0165.jpg"
-    ],
+    images: ["images/products/women/IMG-20250816-WA0165.jpg"],
     isNew: true,
     isSale: false,
-    description: "Trendy and fashionable chic ensemble, perfect for special occasions."
+    description: "Chic and comfortable Chinese casual dress."
   },
   {
     id: 94,
-    name: "Stylish Outfit 65",
-    price: 40,
+    name: "New Stylish Chinese Casual Dress 10",
+    price: 35,
     category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0166.jpg"
-    ],
+    images: ["images/products/women/IMG-20250816-WA0166.jpg"],
     isNew: false,
     isSale: true,
-    description: "Eye-catching design stylish outfit, perfect for special occasions."
+    description: "Stylish Chinese casual dress with elegant design."
   },
   {
     id: 95,
-    name: "Fashionable Gown 66",
+    name: "New Stylish Chinese Casual Dress 11",
     price: 35,
     category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0167.jpg"
-    ],
+    images: ["images/products/women/IMG-20250816-WA0167.jpg"],
     isNew: true,
     isSale: false,
-    description: "Perfect for any occasion fashionable gown, perfect for formal gatherings."
+    description: "Elegant Chinese casual dress for various occasions."
   },
   {
     id: 96,
-    name: "Elegant Gown 67",
+    name: "New Stylish Chinese Casual Dress 12",
     price: 35,
     category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0168.jpg"
-    ],
+    images: ["images/products/women/IMG-20250816-WA0168.jpg"],
     isNew: true,
     isSale: false,
-    description: "Classic and timeless elegant gown, perfect for casual outings."
+    description: "Classic Chinese casual dress with timeless design."
   },
   {
     id: 97,
-    name: "Summer Dress 68",
+    name: "New Stylish Chinese Casual Dress 13",
     price: 35,
     category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0169.jpg"
-    ],
+    images: ["images/products/women/IMG-20250816-WA0169.jpg"],
     isNew: true,
     isSale: false,
-    description: "Trendy and fashionable summer dress, perfect for party nights."
+    description: "Chic Chinese casual dress for summer days."
   },
   {
     id: 98,
-    name: "Evening Dress 69",
+    name: "New Stylish Chinese Casual Dress 14",
     price: 35,
     category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0170.jpg"
-    ],
+    images: ["images/products/women/IMG-20250816-WA0170.jpg"],
     isNew: true,
     isSale: true,
-    description: "Trendy and fashionable evening dress, perfect for evening events."
+    description: "Elegant Chinese casual dress for evening events."
   },
   {
     id: 99,
-    name: "Cocktail Dress 70",
+    name: "New Stylish Chinese Casual Dress 15",
     price: 40,
     category: "women",
-    images: [
-      "images/products/women/IMG-20250816-WA0171.jpg"
-    ],
+    images: ["images/products/women/IMG-20250816-WA0171.jpg"],
     isNew: true,
     isSale: true,
-    description: "Eye-catching design cocktail dress, perfect for casual outings."
+    description: "Stylish Chinese casual dress with eye-catching design."
   }
 ];
 
@@ -1796,3 +1598,27 @@ window.addEventListener('scroll', () => {
         header.style.boxShadow = '0 2px 10px rgba(0,0,0,0.05)';
     }
 });
+
+// Initialize the application
+function initializeApp() {
+    // Display all products initially
+    displayProducts(products);
+    
+    // Set up event listeners
+    setupEventListeners();
+    
+    // Initialize mobile menu
+    initMenu();
+    
+    // Initialize image viewer
+    initImageViewer();
+}
+
+// Wait for the DOM to be fully loaded before initializing
+document.addEventListener('DOMContentLoaded', initializeApp);
+
+// Also try to initialize if the DOM is already loaded
+if (document.readyState === 'complete' || document.readyState === 'interactive') {
+    // Call on next tick to ensure the DOM is ready
+    setTimeout(initializeApp, 1);
+}
