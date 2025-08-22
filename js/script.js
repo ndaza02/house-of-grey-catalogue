@@ -1143,6 +1143,11 @@ function displayProducts(productsToDisplay) {
                 <p class="description">${product.description}</p>
                 <div class="product-actions">
                     <button class="btn btn-primary view-details" data-id="${product.id}">View Details</button>
+                    <a href="https://wa.me/263714976154?text=Hi!%20I%27d%20like%20to%20order:%20${encodeURIComponent(product.name)}" 
+                       target="_blank" 
+                       class="btn btn-whatsapp">
+                        <i class="fab fa-whatsapp"></i> Order Now
+                    </a>
                 </div>`;
                 
         // Add the image to the product card
