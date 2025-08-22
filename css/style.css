@@ -1429,5 +1429,47 @@ body.menu-open {
     color: rgba(255, 255, 255, 0.5);
 }
 
+/* WhatsApp Styles */
+.whatsapp-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary-color);
+    transition: var(--transition);
+    font-size: 1.2rem;
+    margin-right: 0.5rem;
+}
+
+.whatsapp-icon:hover {
+    color: #25D366; /* WhatsApp brand color */
+    transform: scale(1.1);
+}
+
+/* Footer WhatsApp link */
+.whatsapp-text {
+    margin-top: 1.5rem;
+    color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.whatsapp-text i {
+    color: #25D366;
+    font-size: 1.2rem;
+}
+
+.whatsapp-link {
+    color: #25D366;
+    text-decoration: none;
+    font-weight: 500;
+    transition: var(--transition);
+}
+
+.whatsapp-link:hover {
+    text-decoration: underline;
+    color: #1da851;
+}
+
 /* Responsive Design */
 /* Base styles are now integrated above */
